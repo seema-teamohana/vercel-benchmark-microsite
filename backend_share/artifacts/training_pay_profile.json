@@ -1,0 +1,358 @@
+{
+  "Account Executive|IC": {
+    "median_usd": 109321.125,
+    "n_training_rows": 494
+  },
+  "Account Executive|Manager": {
+    "median_usd": 156350.0,
+    "n_training_rows": 8
+  },
+  "Account Management|IC": {
+    "median_usd": 120000.0,
+    "n_training_rows": 126
+  },
+  "Accounting|IC": {
+    "median_usd": 120000.0,
+    "n_training_rows": 48
+  },
+  "Accounting|Manager": {
+    "median_usd": 170000.0,
+    "n_training_rows": 20
+  },
+  "Administrative|IC": {
+    "median_usd": 102500.0,
+    "n_training_rows": 20
+  },
+  "Assembly / Production|IC": {
+    "median_usd": 125000.0,
+    "n_training_rows": 13
+  },
+  "Assembly / Production|Manager": {
+    "median_usd": 93900.0,
+    "n_training_rows": 6
+  },
+  "Assembly / Production|Support": {
+    "median_usd": 52000.0,
+    "n_training_rows": 72
+  },
+  "Brand / Creative / Content Marketing|IC": {
+    "median_usd": 165000.0,
+    "n_training_rows": 8
+  },
+  "Business Operations|IC": {
+    "median_usd": 118500.0,
+    "n_training_rows": 226
+  },
+  "Business Operations|Manager": {
+    "median_usd": 227012.50000000003,
+    "n_training_rows": 35
+  },
+  "Construction / Installation|IC": {
+    "median_usd": 188700.0,
+    "n_training_rows": 65
+  },
+  "Construction / Installation|Manager": {
+    "median_usd": 225000.0,
+    "n_training_rows": 21
+  },
+  "Construction / Installation|Support": {
+    "median_usd": 56160.0,
+    "n_training_rows": 25
+  },
+  "Customer Success|IC": {
+    "median_usd": 137700.0,
+    "n_training_rows": 168
+  },
+  "Customer Success|Manager": {
+    "median_usd": 160000.0,
+    "n_training_rows": 45
+  },
+  "Customer Support|IC": {
+    "median_usd": 97200.0,
+    "n_training_rows": 45
+  },
+  "Customer Support|Support": {
+    "median_usd": 58240.0,
+    "n_training_rows": 79
+  },
+  "Data Engineering|IC": {
+    "median_usd": 190000.0,
+    "n_training_rows": 25
+  },
+  "Data Engineering|Manager": {
+    "median_usd": 272500.0,
+    "n_training_rows": 8
+  },
+  "Data Science / Analytics|IC": {
+    "median_usd": 170000.0,
+    "n_training_rows": 60
+  },
+  "Data Science / Analytics|Manager": {
+    "median_usd": 245000.0,
+    "n_training_rows": 6
+  },
+  "Engagement Management|IC": {
+    "median_usd": 200000.0,
+    "n_training_rows": 81
+  },
+  "Engagement Management|Manager": {
+    "median_usd": 247200.0,
+    "n_training_rows": 12
+  },
+  "Engineering Management|IC": {
+    "median_usd": 220000.0,
+    "n_training_rows": 7
+  },
+  "Engineering Management|Manager": {
+    "median_usd": 270000.0,
+    "n_training_rows": 170
+  },
+  "Executive Assistant|IC": {
+    "median_usd": 140000.0,
+    "n_training_rows": 34
+  },
+  "Field / Hardware Engineering|IC": {
+    "median_usd": 175000.0,
+    "n_training_rows": 29
+  },
+  "Field / Hardware Engineering|Manager": {
+    "median_usd": 245000.0,
+    "n_training_rows": 5
+  },
+  "Field / Hardware Engineering|Support": {
+    "median_usd": 120000.0,
+    "n_training_rows": 5
+  },
+  "Field Service|Support": {
+    "median_usd": 196950.0,
+    "n_training_rows": 36
+  },
+  "Finance|IC": {
+    "median_usd": 160000.0,
+    "n_training_rows": 166
+  },
+  "Finance|Manager": {
+    "median_usd": 220250.0,
+    "n_training_rows": 40
+  },
+  "Growth / Demand Marketing|IC": {
+    "median_usd": 144000.0,
+    "n_training_rows": 41
+  },
+  "Growth / Demand Marketing|Manager": {
+    "median_usd": 229000.0,
+    "n_training_rows": 10
+  },
+  "HR / People|IC": {
+    "median_usd": 155000.0,
+    "n_training_rows": 69
+  },
+  "HR / People|Manager": {
+    "median_usd": 227800.0,
+    "n_training_rows": 24
+  },
+  "Infrastructure / DevOps / SRE|IC": {
+    "median_usd": 177500.0,
+    "n_training_rows": 96
+  },
+  "Infrastructure / DevOps / SRE|Manager": {
+    "median_usd": 235000.0,
+    "n_training_rows": 25
+  },
+  "Legal / Compliance|IC": {
+    "median_usd": 191000.0,
+    "n_training_rows": 80
+  },
+  "Legal / Compliance|Manager": {
+    "median_usd": 310000.0,
+    "n_training_rows": 11
+  },
+  "Machine Learning Engineering|IC": {
+    "median_usd": 235000.0,
+    "n_training_rows": 114
+  },
+  "Machine Learning Engineering|Manager": {
+    "median_usd": 385000.0,
+    "n_training_rows": 14
+  },
+  "Marketing \u2014 General|IC": {
+    "median_usd": 160000.0,
+    "n_training_rows": 77
+  },
+  "Marketing \u2014 General|Manager": {
+    "median_usd": 230000.0,
+    "n_training_rows": 19
+  },
+  "Materials / Warehouse|IC": {
+    "median_usd": 86400.0,
+    "n_training_rows": 6
+  },
+  "Materials / Warehouse|Manager": {
+    "median_usd": 72800.0,
+    "n_training_rows": 13
+  },
+  "Materials / Warehouse|Support": {
+    "median_usd": 54080.0,
+    "n_training_rows": 43
+  },
+  "Operations Specialist|IC": {
+    "median_usd": 108000.0,
+    "n_training_rows": 37
+  },
+  "Operations Specialist|Manager": {
+    "median_usd": 186853.0,
+    "n_training_rows": 18
+  },
+  "Operations Specialist|Support": {
+    "median_usd": 68640.0,
+    "n_training_rows": 6
+  },
+  "Procurement|IC": {
+    "median_usd": 118000.0,
+    "n_training_rows": 43
+  },
+  "Procurement|Manager": {
+    "median_usd": 214000.0,
+    "n_training_rows": 13
+  },
+  "Product Design|IC": {
+    "median_usd": 207500.0,
+    "n_training_rows": 72
+  },
+  "Product Design|Manager": {
+    "median_usd": 285000.0,
+    "n_training_rows": 11
+  },
+  "Product Management|IC": {
+    "median_usd": 215000.0,
+    "n_training_rows": 194
+  },
+  "Product Management|Manager": {
+    "median_usd": 300000.0,
+    "n_training_rows": 19
+  },
+  "Product Marketing|IC": {
+    "median_usd": 198000.0,
+    "n_training_rows": 38
+  },
+  "Product Marketing|Manager": {
+    "median_usd": 288500.0,
+    "n_training_rows": 8
+  },
+  "Product Operations|IC": {
+    "median_usd": 180000.0,
+    "n_training_rows": 5
+  },
+  "QA / Quality Engineering|IC": {
+    "median_usd": 58900.0,
+    "n_training_rows": 33
+  },
+  "QA / Quality Engineering|Support": {
+    "median_usd": 66560.0,
+    "n_training_rows": 5
+  },
+  "Research|IC": {
+    "median_usd": 255000.0,
+    "n_training_rows": 27
+  },
+  "Sales Development|IC": {
+    "median_usd": 66500.0,
+    "n_training_rows": 271
+  },
+  "Sales Development|Manager": {
+    "median_usd": 226800.00000000003,
+    "n_training_rows": 19
+  },
+  "Sales Engineering|IC": {
+    "median_usd": 196000.0,
+    "n_training_rows": 19
+  },
+  "Sales Leadership|IC": {
+    "median_usd": 137160.0,
+    "n_training_rows": 11
+  },
+  "Sales Leadership|Manager": {
+    "median_usd": 198275.0,
+    "n_training_rows": 160
+  },
+  "Sales Operations|IC": {
+    "median_usd": 150000.0,
+    "n_training_rows": 59
+  },
+  "Sales Operations|Manager": {
+    "median_usd": 250000.0,
+    "n_training_rows": 7
+  },
+  "Security Engineering|IC": {
+    "median_usd": 235000.0,
+    "n_training_rows": 65
+  },
+  "Security Engineering|Manager": {
+    "median_usd": 255000.0,
+    "n_training_rows": 7
+  },
+  "Software Engineering|IC": {
+    "median_usd": 195920.0,
+    "n_training_rows": 1438
+  },
+  "Software Engineering|Manager": {
+    "median_usd": 237000.0,
+    "n_training_rows": 43
+  },
+  "Solutions / Forward-Deployed Engineering|IC": {
+    "median_usd": 171450.0,
+    "n_training_rows": 145
+  },
+  "Solutions / Forward-Deployed Engineering|Manager": {
+    "median_usd": 182000.0,
+    "n_training_rows": 33
+  },
+  "Strategic Programs|IC": {
+    "median_usd": 160000.0,
+    "n_training_rows": 167
+  },
+  "Strategic Programs|Manager": {
+    "median_usd": 213050.0,
+    "n_training_rows": 32
+  },
+  "Talent Acquisition / Recruiting|IC": {
+    "median_usd": 160000.0,
+    "n_training_rows": 111
+  },
+  "Talent Acquisition / Recruiting|Manager": {
+    "median_usd": 207500.0,
+    "n_training_rows": 22
+  },
+  "Technical Program Management|IC": {
+    "median_usd": 206000.0,
+    "n_training_rows": 56
+  },
+  "Technical Program Management|Manager": {
+    "median_usd": 250000.0,
+    "n_training_rows": 7
+  },
+  "Technical Support|IC": {
+    "median_usd": 133350.0,
+    "n_training_rows": 31
+  },
+  "Technical Support|Manager": {
+    "median_usd": 163500.0,
+    "n_training_rows": 10
+  },
+  "Technical Support|Support": {
+    "median_usd": 84520.0,
+    "n_training_rows": 6
+  },
+  "Wiring / Electrical|IC": {
+    "median_usd": 157500.0,
+    "n_training_rows": 22
+  },
+  "Wiring / Electrical|Manager": {
+    "median_usd": 106080.0,
+    "n_training_rows": 5
+  },
+  "Wiring / Electrical|Support": {
+    "median_usd": 49920.0,
+    "n_training_rows": 61
+  }
+}

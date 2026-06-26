@@ -1,0 +1,20 @@
+{
+  "dominant_customers": [
+    "SCAL",
+    "VANT",
+    "CRUS"
+  ],
+  "note": "Predictions are best-calibrated for customers whose hire mix resembles the highest-volume training contributors. Per-customer test-set coverage from Section 14f: SCAL 53.8%, VANT 56.0%, CRUS 55.8%, DOC 37.8%, IONQ 44.8%, LUCI 43.1%, STGK 34.0%, ABRI 62.9%, DECA 43.8%. Lower-coverage customers should treat predicted ranges as directional rather than authoritative.",
+  "per_customer_test_coverage": {
+    "SCAL": 0.538,
+    "VANT": 0.56,
+    "CRUS": 0.558,
+    "DOC": 0.378,
+    "IONQ": 0.448,
+    "LUCI": 0.431,
+    "STGK": 0.34,
+    "ABRI": 0.629,
+    "DECA": 0.438,
+    "GH": 0.5
+  }
+}
