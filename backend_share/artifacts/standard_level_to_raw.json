@@ -1,0 +1,4558 @@
+{
+  "Account Executive|Australia|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Account Executive|Australia|IC3": {
+    "raw_level": "IC3",
+    "n": 10
+  },
+  "Account Executive|Australia|IC4": {
+    "raw_level": "IC4",
+    "n": 13
+  },
+  "Account Executive|Australia|IC5": {
+    "raw_level": "IC5",
+    "n": 4
+  },
+  "Account Executive|Australia|IC6": {
+    "raw_level": "IC6",
+    "n": 3
+  },
+  "Account Executive|Australia|IC7": {
+    "raw_level": "P7",
+    "n": 2
+  },
+  "Account Executive|Canada|IC2": {
+    "raw_level": "P2",
+    "n": 7
+  },
+  "Account Executive|Canada|IC3": {
+    "raw_level": "P3",
+    "n": 3
+  },
+  "Account Executive|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Account Executive|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Account Executive|Canada|IC6": {
+    "raw_level": "IC6",
+    "n": 3
+  },
+  "Account Executive|Canada|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Account Executive|France|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Account Executive|France|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Account Executive|France|IC5": {
+    "raw_level": "IC5",
+    "n": 3
+  },
+  "Account Executive|France|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Account Executive|Germany|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Account Executive|Germany|IC7": {
+    "raw_level": "IC7",
+    "n": 1
+  },
+  "Account Executive|India|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Account Executive|India|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Account Executive|Ireland|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Account Executive|Ireland|IC3": {
+    "raw_level": "IC3",
+    "n": 13
+  },
+  "Account Executive|Ireland|IC4": {
+    "raw_level": "IC4",
+    "n": 6
+  },
+  "Account Executive|Ireland|IC5": {
+    "raw_level": "IC5",
+    "n": 3
+  },
+  "Account Executive|Ireland|IC7": {
+    "raw_level": "P7",
+    "n": 3
+  },
+  "Account Executive|Israel|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Account Executive|Israel|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Account Executive|Italy|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Account Executive|Japan|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Account Executive|Japan|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Account Executive|Japan|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Account Executive|Japan|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Account Executive|Netherlands|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Account Executive|Netherlands|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Account Executive|Netherlands|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Account Executive|Singapore|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Account Executive|Singapore|IC4": {
+    "raw_level": "IC4",
+    "n": 5
+  },
+  "Account Executive|Singapore|IC6": {
+    "raw_level": "P6",
+    "n": 1
+  },
+  "Account Executive|Singapore|IC7": {
+    "raw_level": "P8",
+    "n": 2
+  },
+  "Account Executive|Spain|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Account Executive|Spain|IC3": {
+    "raw_level": "IC3",
+    "n": 3
+  },
+  "Account Executive|Spain|IC4": {
+    "raw_level": "IC4",
+    "n": 3
+  },
+  "Account Executive|Spain|IC5": {
+    "raw_level": "IC5",
+    "n": 4
+  },
+  "Account Executive|Spain|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Account Executive|Sweden|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Account Executive|UK|IC1": {
+    "raw_level": "L1",
+    "n": 1
+  },
+  "Account Executive|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 9
+  },
+  "Account Executive|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 23
+  },
+  "Account Executive|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 28
+  },
+  "Account Executive|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 12
+  },
+  "Account Executive|US|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Account Executive|US|IC1": {
+    "raw_level": "L1",
+    "n": 3
+  },
+  "Account Executive|US|IC2": {
+    "raw_level": "IC2",
+    "n": 65
+  },
+  "Account Executive|US|IC3": {
+    "raw_level": "IC3",
+    "n": 73
+  },
+  "Account Executive|US|IC4": {
+    "raw_level": "IC4",
+    "n": 73
+  },
+  "Account Executive|US|IC5": {
+    "raw_level": "IC5",
+    "n": 68
+  },
+  "Account Executive|US|IC6": {
+    "raw_level": "IC6",
+    "n": 36
+  },
+  "Account Executive|US|IC7": {
+    "raw_level": "P7",
+    "n": 40
+  },
+  "Account Executive|US|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "Account Executive|US|M5": {
+    "raw_level": "M5",
+    "n": 2
+  },
+  "Account Executive|US|M6": {
+    "raw_level": "M6",
+    "n": 3
+  },
+  "Account Management|Australia|IC3": {
+    "raw_level": "IC3",
+    "n": 2
+  },
+  "Account Management|Australia|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Account Management|Australia|IC5": {
+    "raw_level": "IC5",
+    "n": 3
+  },
+  "Account Management|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 3
+  },
+  "Account Management|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Account Management|France|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Account Management|India|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Account Management|Ireland|IC3": {
+    "raw_level": "IC3",
+    "n": 5
+  },
+  "Account Management|Ireland|IC4": {
+    "raw_level": "IC4",
+    "n": 5
+  },
+  "Account Management|Ireland|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Account Management|Italy|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Account Management|UK|IC3": {
+    "raw_level": "P3",
+    "n": 2
+  },
+  "Account Management|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 5
+  },
+  "Account Management|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 4
+  },
+  "Account Management|US|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Account Management|US|IC2": {
+    "raw_level": "P2",
+    "n": 11
+  },
+  "Account Management|US|IC3": {
+    "raw_level": "IC3",
+    "n": 34
+  },
+  "Account Management|US|IC4": {
+    "raw_level": "IC4",
+    "n": 51
+  },
+  "Account Management|US|IC5": {
+    "raw_level": "IC5",
+    "n": 20
+  },
+  "Account Management|US|IC6": {
+    "raw_level": "IC6",
+    "n": 2
+  },
+  "Account Management|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Account Management|US|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "Account Management|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Accounting|Canada|IC1": {
+    "raw_level": "L1",
+    "n": 4
+  },
+  "Accounting|Canada|IC4": {
+    "raw_level": "P4",
+    "n": 3
+  },
+  "Accounting|Canada|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "Accounting|Canada|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Accounting|Hungary|IC5": {
+    "raw_level": "P5",
+    "n": 1
+  },
+  "Accounting|Mexico|IC3": {
+    "raw_level": "L3",
+    "n": 4
+  },
+  "Accounting|Mexico|IC4": {
+    "raw_level": "IC4",
+    "n": 4
+  },
+  "Accounting|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Accounting|Mexico|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Accounting|Mexico|M7": {
+    "raw_level": "M7",
+    "n": 2
+  },
+  "Accounting|Mexico|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Accounting|US|Director": {
+    "raw_level": "Director",
+    "n": 2
+  },
+  "Accounting|US|Executive": {
+    "raw_level": "EX10",
+    "n": 1
+  },
+  "Accounting|US|IC1": {
+    "raw_level": "IC1",
+    "n": 5
+  },
+  "Accounting|US|IC2": {
+    "raw_level": "P2",
+    "n": 8
+  },
+  "Accounting|US|IC3": {
+    "raw_level": "P3",
+    "n": 22
+  },
+  "Accounting|US|IC4": {
+    "raw_level": "IC4",
+    "n": 23
+  },
+  "Accounting|US|IC5": {
+    "raw_level": "IC5",
+    "n": 9
+  },
+  "Accounting|US|IC6": {
+    "raw_level": "P6",
+    "n": 1
+  },
+  "Accounting|US|IC7": {
+    "raw_level": "P8",
+    "n": 5
+  },
+  "Accounting|US|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Accounting|US|M3": {
+    "raw_level": "M3",
+    "n": 7
+  },
+  "Accounting|US|M4": {
+    "raw_level": "M4",
+    "n": 8
+  },
+  "Accounting|US|M5": {
+    "raw_level": "M5",
+    "n": 6
+  },
+  "Accounting|US|M6": {
+    "raw_level": "M6",
+    "n": 4
+  },
+  "Accounting|US|M7": {
+    "raw_level": "M7",
+    "n": 2
+  },
+  "Accounting|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Administrative|France|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Administrative|Mexico|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Administrative|UK|IC7": {
+    "raw_level": "G7",
+    "n": 1
+  },
+  "Administrative|US|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Administrative|US|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Administrative|US|IC4": {
+    "raw_level": "G4",
+    "n": 3
+  },
+  "Administrative|US|IC5": {
+    "raw_level": "G5",
+    "n": 4
+  },
+  "Administrative|US|IC6": {
+    "raw_level": "G6",
+    "n": 3
+  },
+  "Administrative|US|IC7": {
+    "raw_level": "G10",
+    "n": 2
+  },
+  "Assembly / Production|Canada|IC1": {
+    "raw_level": "IC1",
+    "n": 1
+  },
+  "Assembly / Production|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 4
+  },
+  "Assembly / Production|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Assembly / Production|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Assembly / Production|US|IC1": {
+    "raw_level": "P1",
+    "n": 3
+  },
+  "Assembly / Production|US|IC2": {
+    "raw_level": "P2",
+    "n": 4
+  },
+  "Assembly / Production|US|IC3": {
+    "raw_level": "P3",
+    "n": 6
+  },
+  "Assembly / Production|US|IC4": {
+    "raw_level": "P4",
+    "n": 3
+  },
+  "Assembly / Production|US|M1": {
+    "raw_level": "M1",
+    "n": 1
+  },
+  "Assembly / Production|US|M3": {
+    "raw_level": "M3",
+    "n": 2
+  },
+  "Assembly / Production|US|M5": {
+    "raw_level": "M5",
+    "n": 2
+  },
+  "Brand / Creative / Content Marketing|Mexico|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Brand / Creative / Content Marketing|UK|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Brand / Creative / Content Marketing|US|IC2": {
+    "raw_level": "P2",
+    "n": 3
+  },
+  "Brand / Creative / Content Marketing|US|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Brand / Creative / Content Marketing|US|IC4": {
+    "raw_level": "L4",
+    "n": 4
+  },
+  "Brand / Creative / Content Marketing|US|IC5": {
+    "raw_level": "IC5",
+    "n": 3
+  },
+  "Brand / Creative / Content Marketing|US|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Brand / Creative / Content Marketing|US|IC7": {
+    "raw_level": "L7",
+    "n": 4
+  },
+  "Brand / Creative / Content Marketing|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Brand / Creative / Content Marketing|US|M5": {
+    "raw_level": "M5",
+    "n": 2
+  },
+  "Brand / Creative / Content Marketing|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Brand / Creative / Content Marketing|US|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Brand / Creative / Content Marketing|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Business Operations|Argentina|IC3": {
+    "raw_level": "L3",
+    "n": 1
+  },
+  "Business Operations|Argentina|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Business Operations|Canada|Executive": {
+    "raw_level": "EX9",
+    "n": 2
+  },
+  "Business Operations|Canada|IC1": {
+    "raw_level": "IC1",
+    "n": 5
+  },
+  "Business Operations|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 8
+  },
+  "Business Operations|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 6
+  },
+  "Business Operations|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 5
+  },
+  "Business Operations|Canada|M4": {
+    "raw_level": "MGR4",
+    "n": 2
+  },
+  "Business Operations|Canada|M7": {
+    "raw_level": "MGR7",
+    "n": 1
+  },
+  "Business Operations|Hungary|IC2": {
+    "raw_level": "P2",
+    "n": 1
+  },
+  "Business Operations|India|IC4": {
+    "raw_level": "L4",
+    "n": 3
+  },
+  "Business Operations|India|IC5": {
+    "raw_level": "L5",
+    "n": 4
+  },
+  "Business Operations|India|IC6": {
+    "raw_level": "L6",
+    "n": 1
+  },
+  "Business Operations|India|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Business Operations|Ireland|IC7": {
+    "raw_level": "P8",
+    "n": 1
+  },
+  "Business Operations|Italy|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Business Operations|Mexico|IC1": {
+    "raw_level": "L1",
+    "n": 9
+  },
+  "Business Operations|Mexico|IC2": {
+    "raw_level": "L2",
+    "n": 65
+  },
+  "Business Operations|Mexico|IC3": {
+    "raw_level": "L3",
+    "n": 33
+  },
+  "Business Operations|Mexico|IC4": {
+    "raw_level": "L4",
+    "n": 6
+  },
+  "Business Operations|Mexico|IC5": {
+    "raw_level": "L5",
+    "n": 1
+  },
+  "Business Operations|Mexico|IC7": {
+    "raw_level": "P8",
+    "n": 1
+  },
+  "Business Operations|Mexico|M2": {
+    "raw_level": "M2",
+    "n": 2
+  },
+  "Business Operations|Mexico|M3": {
+    "raw_level": "M3",
+    "n": 2
+  },
+  "Business Operations|Mexico|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Business Operations|UK|IC1": {
+    "raw_level": "IC1",
+    "n": 7
+  },
+  "Business Operations|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Business Operations|UK|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Business Operations|UK|IC5": {
+    "raw_level": "L5",
+    "n": 1
+  },
+  "Business Operations|UK|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Business Operations|UK|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Business Operations|US|Executive": {
+    "raw_level": "Executive (other)",
+    "n": 3
+  },
+  "Business Operations|US|IC1": {
+    "raw_level": "P1",
+    "n": 84
+  },
+  "Business Operations|US|IC2": {
+    "raw_level": "P2",
+    "n": 20
+  },
+  "Business Operations|US|IC3": {
+    "raw_level": "L3",
+    "n": 34
+  },
+  "Business Operations|US|IC4": {
+    "raw_level": "L4",
+    "n": 55
+  },
+  "Business Operations|US|IC5": {
+    "raw_level": "L5",
+    "n": 40
+  },
+  "Business Operations|US|IC6": {
+    "raw_level": "L6",
+    "n": 5
+  },
+  "Business Operations|US|IC7": {
+    "raw_level": "P9",
+    "n": 3
+  },
+  "Business Operations|US|M2": {
+    "raw_level": "M2",
+    "n": 5
+  },
+  "Business Operations|US|M3": {
+    "raw_level": "M3",
+    "n": 8
+  },
+  "Business Operations|US|M4": {
+    "raw_level": "M4",
+    "n": 11
+  },
+  "Business Operations|US|M5": {
+    "raw_level": "M5",
+    "n": 10
+  },
+  "Business Operations|US|M6": {
+    "raw_level": "M6",
+    "n": 8
+  },
+  "Business Operations|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Construction / Installation|Canada|IC1": {
+    "raw_level": "IC1",
+    "n": 1
+  },
+  "Construction / Installation|US|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Construction / Installation|US|IC2": {
+    "raw_level": "P2",
+    "n": 7
+  },
+  "Construction / Installation|US|IC3": {
+    "raw_level": "P3",
+    "n": 13
+  },
+  "Construction / Installation|US|IC4": {
+    "raw_level": "P4",
+    "n": 26
+  },
+  "Construction / Installation|US|IC5": {
+    "raw_level": "P5",
+    "n": 18
+  },
+  "Construction / Installation|US|M3": {
+    "raw_level": "M3",
+    "n": 4
+  },
+  "Construction / Installation|US|M4": {
+    "raw_level": "M4",
+    "n": 7
+  },
+  "Construction / Installation|US|M5": {
+    "raw_level": "M5",
+    "n": 8
+  },
+  "Customer Success|Australia|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Customer Success|Australia|IC3": {
+    "raw_level": "IC3",
+    "n": 2
+  },
+  "Customer Success|Australia|IC4": {
+    "raw_level": "IC4",
+    "n": 4
+  },
+  "Customer Success|Australia|IC5": {
+    "raw_level": "IC5",
+    "n": 5
+  },
+  "Customer Success|Australia|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Customer Success|Australia|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Customer Success|Canada|Executive": {
+    "raw_level": "Executive",
+    "n": 1
+  },
+  "Customer Success|Canada|IC1": {
+    "raw_level": "Y0",
+    "n": 1
+  },
+  "Customer Success|Canada|IC3": {
+    "raw_level": "P3",
+    "n": 1
+  },
+  "Customer Success|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Customer Success|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 3
+  },
+  "Customer Success|Canada|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Customer Success|France|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Customer Success|Germany|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Customer Success|Germany|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Customer Success|Ireland|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Customer Success|Ireland|IC4": {
+    "raw_level": "P4",
+    "n": 2
+  },
+  "Customer Success|Italy|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Customer Success|Japan|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Customer Success|Japan|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Customer Success|Japan|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Customer Success|Mexico|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Customer Success|Mexico|M6": {
+    "raw_level": "M6",
+    "n": 2
+  },
+  "Customer Success|Mexico|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Customer Success|Netherlands|IC2": {
+    "raw_level": "IC Specialist",
+    "n": 1
+  },
+  "Customer Success|Poland|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Customer Success|Portugal|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Customer Success|Spain|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Customer Success|UK|IC1": {
+    "raw_level": "IC1",
+    "n": 3
+  },
+  "Customer Success|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 3
+  },
+  "Customer Success|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 9
+  },
+  "Customer Success|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 4
+  },
+  "Customer Success|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 10
+  },
+  "Customer Success|UK|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Customer Success|UK|M6": {
+    "raw_level": "M6",
+    "n": 3
+  },
+  "Customer Success|US|Director": {
+    "raw_level": "Director",
+    "n": 3
+  },
+  "Customer Success|US|Executive": {
+    "raw_level": "E2",
+    "n": 3
+  },
+  "Customer Success|US|IC1": {
+    "raw_level": "IC1",
+    "n": 3
+  },
+  "Customer Success|US|IC2": {
+    "raw_level": "IC2",
+    "n": 27
+  },
+  "Customer Success|US|IC3": {
+    "raw_level": "IC3",
+    "n": 52
+  },
+  "Customer Success|US|IC4": {
+    "raw_level": "IC4",
+    "n": 65
+  },
+  "Customer Success|US|IC5": {
+    "raw_level": "IC5",
+    "n": 30
+  },
+  "Customer Success|US|IC6": {
+    "raw_level": "P6",
+    "n": 3
+  },
+  "Customer Success|US|IC7": {
+    "raw_level": "P7",
+    "n": 3
+  },
+  "Customer Success|US|M3": {
+    "raw_level": "M3",
+    "n": 3
+  },
+  "Customer Success|US|M4": {
+    "raw_level": "M4",
+    "n": 4
+  },
+  "Customer Success|US|M5": {
+    "raw_level": "M5",
+    "n": 13
+  },
+  "Customer Success|US|M6": {
+    "raw_level": "M6",
+    "n": 6
+  },
+  "Customer Success|US|M7": {
+    "raw_level": "M7",
+    "n": 2
+  },
+  "Customer Support|Australia|IC3": {
+    "raw_level": "IC3",
+    "n": 5
+  },
+  "Customer Support|Canada|IC1": {
+    "raw_level": "IC0",
+    "n": 51
+  },
+  "Customer Support|Canada|M1": {
+    "raw_level": "M1",
+    "n": 1
+  },
+  "Customer Support|Canada|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Customer Support|India|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Customer Support|Ireland|IC2": {
+    "raw_level": "IC2",
+    "n": 5
+  },
+  "Customer Support|Ireland|IC3": {
+    "raw_level": "IC3",
+    "n": 4
+  },
+  "Customer Support|Ireland|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Customer Support|Israel|IC3": {
+    "raw_level": "P3",
+    "n": 1
+  },
+  "Customer Support|Mexico|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Customer Support|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Customer Support|Netherlands|IC2": {
+    "raw_level": "IC Sr. Specialist",
+    "n": 2
+  },
+  "Customer Support|UK|IC1": {
+    "raw_level": "IC1",
+    "n": 3
+  },
+  "Customer Support|UK|IC4": {
+    "raw_level": "G4",
+    "n": 5
+  },
+  "Customer Support|US|Director": {
+    "raw_level": "Director",
+    "n": 2
+  },
+  "Customer Support|US|IC1": {
+    "raw_level": "G1",
+    "n": 29
+  },
+  "Customer Support|US|IC2": {
+    "raw_level": "G2",
+    "n": 11
+  },
+  "Customer Support|US|IC3": {
+    "raw_level": "G3",
+    "n": 39
+  },
+  "Customer Support|US|IC4": {
+    "raw_level": "G4",
+    "n": 18
+  },
+  "Customer Support|US|IC5": {
+    "raw_level": "G5",
+    "n": 11
+  },
+  "Customer Support|US|IC6": {
+    "raw_level": "G6",
+    "n": 5
+  },
+  "Customer Support|US|IC7": {
+    "raw_level": "P7",
+    "n": 2
+  },
+  "Customer Support|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Customer Support|US|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Customer Support|US|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Data Engineering|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Data Engineering|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Data Engineering|Canada|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Data Engineering|Germany|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Data Engineering|India|IC3": {
+    "raw_level": "P3",
+    "n": 2
+  },
+  "Data Engineering|Mexico|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Data Engineering|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Data Engineering|Portugal|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Data Engineering|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Data Engineering|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Data Engineering|US|IC1": {
+    "raw_level": "P1",
+    "n": 2
+  },
+  "Data Engineering|US|IC2": {
+    "raw_level": "P2",
+    "n": 6
+  },
+  "Data Engineering|US|IC3": {
+    "raw_level": "P3",
+    "n": 4
+  },
+  "Data Engineering|US|IC4": {
+    "raw_level": "IC4",
+    "n": 17
+  },
+  "Data Engineering|US|IC5": {
+    "raw_level": "IC5",
+    "n": 5
+  },
+  "Data Engineering|US|IC6": {
+    "raw_level": "IC6",
+    "n": 7
+  },
+  "Data Engineering|US|IC7": {
+    "raw_level": "P7",
+    "n": 2
+  },
+  "Data Engineering|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Data Engineering|US|M4": {
+    "raw_level": "M4",
+    "n": 4
+  },
+  "Data Engineering|US|M5": {
+    "raw_level": "M5",
+    "n": 2
+  },
+  "Data Engineering|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Data Engineering|US|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Data Engineering|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Data Science / Analytics|Canada|IC2": {
+    "raw_level": "L2",
+    "n": 2
+  },
+  "Data Science / Analytics|Canada|IC3": {
+    "raw_level": "L3",
+    "n": 5
+  },
+  "Data Science / Analytics|Canada|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Data Science / Analytics|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Data Science / Analytics|France|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Data Science / Analytics|India|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Data Science / Analytics|India|IC4": {
+    "raw_level": "L4",
+    "n": 2
+  },
+  "Data Science / Analytics|India|IC7": {
+    "raw_level": "P7",
+    "n": 1
+  },
+  "Data Science / Analytics|Italy|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Data Science / Analytics|Mexico|IC4": {
+    "raw_level": "L4",
+    "n": 3
+  },
+  "Data Science / Analytics|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 4
+  },
+  "Data Science / Analytics|Mexico|IC7": {
+    "raw_level": "P7",
+    "n": 1
+  },
+  "Data Science / Analytics|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Data Science / Analytics|US|Director": {
+    "raw_level": "Director",
+    "n": 2
+  },
+  "Data Science / Analytics|US|Executive": {
+    "raw_level": "E3",
+    "n": 2
+  },
+  "Data Science / Analytics|US|IC1": {
+    "raw_level": "IC1",
+    "n": 1
+  },
+  "Data Science / Analytics|US|IC2": {
+    "raw_level": "P2",
+    "n": 8
+  },
+  "Data Science / Analytics|US|IC3": {
+    "raw_level": "P3",
+    "n": 29
+  },
+  "Data Science / Analytics|US|IC4": {
+    "raw_level": "IC4",
+    "n": 46
+  },
+  "Data Science / Analytics|US|IC5": {
+    "raw_level": "G5",
+    "n": 25
+  },
+  "Data Science / Analytics|US|IC6": {
+    "raw_level": "IC6",
+    "n": 8
+  },
+  "Data Science / Analytics|US|IC7": {
+    "raw_level": "P8",
+    "n": 9
+  },
+  "Data Science / Analytics|US|M3": {
+    "raw_level": "M3",
+    "n": 6
+  },
+  "Data Science / Analytics|US|M4": {
+    "raw_level": "M4",
+    "n": 4
+  },
+  "Data Science / Analytics|US|M5": {
+    "raw_level": "M5",
+    "n": 2
+  },
+  "Data Science / Analytics|US|M6": {
+    "raw_level": "M6",
+    "n": 4
+  },
+  "Engagement Management|Mexico|IC3": {
+    "raw_level": "L3",
+    "n": 1
+  },
+  "Engagement Management|Qatar|IC6": {
+    "raw_level": "L6",
+    "n": 1
+  },
+  "Engagement Management|UK|IC5": {
+    "raw_level": "L5",
+    "n": 1
+  },
+  "Engagement Management|UK|IC6": {
+    "raw_level": "L6",
+    "n": 1
+  },
+  "Engagement Management|US|IC4": {
+    "raw_level": "L4",
+    "n": 28
+  },
+  "Engagement Management|US|IC5": {
+    "raw_level": "L5",
+    "n": 33
+  },
+  "Engagement Management|US|IC6": {
+    "raw_level": "L6",
+    "n": 3
+  },
+  "Engagement Management|US|M2": {
+    "raw_level": "M2",
+    "n": 2
+  },
+  "Engagement Management|US|M3": {
+    "raw_level": "M3",
+    "n": 2
+  },
+  "Engagement Management|US|M4": {
+    "raw_level": "M4",
+    "n": 8
+  },
+  "Engagement Management|US|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Engineering Management|Argentina|IC5": {
+    "raw_level": "L5",
+    "n": 1
+  },
+  "Engineering Management|Canada|M3": {
+    "raw_level": "M3",
+    "n": 2
+  },
+  "Engineering Management|Canada|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Engineering Management|Canada|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Engineering Management|Canada|M6": {
+    "raw_level": "M6",
+    "n": 2
+  },
+  "Engineering Management|Canada|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Engineering Management|France|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Engineering Management|Germany|Executive": {
+    "raw_level": "E1",
+    "n": 1
+  },
+  "Engineering Management|Germany|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Engineering Management|Germany|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Engineering Management|Ireland|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Engineering Management|Mexico|M7": {
+    "raw_level": "M7",
+    "n": 3
+  },
+  "Engineering Management|Poland|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Engineering Management|Portugal|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Engineering Management|Qatar|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Engineering Management|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Engineering Management|UK|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Engineering Management|UK|M3": {
+    "raw_level": "M3",
+    "n": 4
+  },
+  "Engineering Management|UK|M4": {
+    "raw_level": "M4",
+    "n": 5
+  },
+  "Engineering Management|UK|M5": {
+    "raw_level": "M5",
+    "n": 5
+  },
+  "Engineering Management|US|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Engineering Management|US|Executive": {
+    "raw_level": "E1",
+    "n": 4
+  },
+  "Engineering Management|US|IC4": {
+    "raw_level": "L4",
+    "n": 3
+  },
+  "Engineering Management|US|IC5": {
+    "raw_level": "L5",
+    "n": 8
+  },
+  "Engineering Management|US|IC6": {
+    "raw_level": "G6",
+    "n": 10
+  },
+  "Engineering Management|US|IC7": {
+    "raw_level": "G7",
+    "n": 6
+  },
+  "Engineering Management|US|M1": {
+    "raw_level": "M1",
+    "n": 2
+  },
+  "Engineering Management|US|M2": {
+    "raw_level": "M2",
+    "n": 2
+  },
+  "Engineering Management|US|M3": {
+    "raw_level": "M3",
+    "n": 46
+  },
+  "Engineering Management|US|M4": {
+    "raw_level": "M4",
+    "n": 42
+  },
+  "Engineering Management|US|M5": {
+    "raw_level": "M5",
+    "n": 33
+  },
+  "Engineering Management|US|M6": {
+    "raw_level": "M6",
+    "n": 24
+  },
+  "Engineering Management|US|M7": {
+    "raw_level": "M7",
+    "n": 8
+  },
+  "Engineering Management|US|M8": {
+    "raw_level": "M8",
+    "n": 3
+  },
+  "Executive Assistant|Canada|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Executive Assistant|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Executive Assistant|UK|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Executive Assistant|US|IC2": {
+    "raw_level": "P2",
+    "n": 2
+  },
+  "Executive Assistant|US|IC3": {
+    "raw_level": "P3",
+    "n": 15
+  },
+  "Executive Assistant|US|IC4": {
+    "raw_level": "IC4",
+    "n": 10
+  },
+  "Executive Assistant|US|IC5": {
+    "raw_level": "L5",
+    "n": 10
+  },
+  "Executive Assistant|US|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Executive Assistant|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Executive Assistant|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Field / Hardware Engineering|Canada|IC1": {
+    "raw_level": "IC1",
+    "n": 4
+  },
+  "Field / Hardware Engineering|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 5
+  },
+  "Field / Hardware Engineering|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 8
+  },
+  "Field / Hardware Engineering|Germany|IC5": {
+    "raw_level": "G5",
+    "n": 1
+  },
+  "Field / Hardware Engineering|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Field / Hardware Engineering|US|IC1": {
+    "raw_level": "P1",
+    "n": 2
+  },
+  "Field / Hardware Engineering|US|IC2": {
+    "raw_level": "P2",
+    "n": 3
+  },
+  "Field / Hardware Engineering|US|IC3": {
+    "raw_level": "P3",
+    "n": 8
+  },
+  "Field / Hardware Engineering|US|IC4": {
+    "raw_level": "P4",
+    "n": 10
+  },
+  "Field / Hardware Engineering|US|IC5": {
+    "raw_level": "P5",
+    "n": 10
+  },
+  "Field / Hardware Engineering|US|IC7": {
+    "raw_level": "P7",
+    "n": 1
+  },
+  "Field / Hardware Engineering|US|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "Field / Hardware Engineering|US|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Field / Hardware Engineering|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Field Service|Argentina|IC4": {
+    "raw_level": "L4",
+    "n": 2
+  },
+  "Field Service|Belgium|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Field Service|Japan|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Field Service|Mexico|IC2": {
+    "raw_level": "L2",
+    "n": 1
+  },
+  "Field Service|Mexico|IC3": {
+    "raw_level": "L3",
+    "n": 2
+  },
+  "Field Service|US|IC3": {
+    "raw_level": "L3",
+    "n": 2
+  },
+  "Field Service|US|IC4": {
+    "raw_level": "L4",
+    "n": 23
+  },
+  "Field Service|US|IC5": {
+    "raw_level": "L5",
+    "n": 2
+  },
+  "Field Service|US|IC6": {
+    "raw_level": "L6",
+    "n": 1
+  },
+  "Field Service|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Finance|Canada|IC4": {
+    "raw_level": "P4",
+    "n": 5
+  },
+  "Finance|Canada|IC5": {
+    "raw_level": "P5",
+    "n": 1
+  },
+  "Finance|Canada|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Finance|Canada|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Finance|Canada|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Finance|India|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Finance|Mexico|IC3": {
+    "raw_level": "L3",
+    "n": 2
+  },
+  "Finance|Mexico|IC4": {
+    "raw_level": "IC4",
+    "n": 4
+  },
+  "Finance|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 6
+  },
+  "Finance|Mexico|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Finance|Netherlands|IC2": {
+    "raw_level": "IC Specialist",
+    "n": 3
+  },
+  "Finance|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Finance|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Finance|UK|IC5": {
+    "raw_level": "L5",
+    "n": 1
+  },
+  "Finance|UK|IC6": {
+    "raw_level": "P6",
+    "n": 2
+  },
+  "Finance|US|Director": {
+    "raw_level": "Director",
+    "n": 2
+  },
+  "Finance|US|Executive": {
+    "raw_level": "E1",
+    "n": 10
+  },
+  "Finance|US|IC1": {
+    "raw_level": "IC1",
+    "n": 1
+  },
+  "Finance|US|IC2": {
+    "raw_level": "P2",
+    "n": 9
+  },
+  "Finance|US|IC3": {
+    "raw_level": "P3",
+    "n": 37
+  },
+  "Finance|US|IC4": {
+    "raw_level": "P4",
+    "n": 44
+  },
+  "Finance|US|IC5": {
+    "raw_level": "P5",
+    "n": 36
+  },
+  "Finance|US|IC6": {
+    "raw_level": "P6",
+    "n": 24
+  },
+  "Finance|US|IC7": {
+    "raw_level": "P7",
+    "n": 8
+  },
+  "Finance|US|M2": {
+    "raw_level": "M2",
+    "n": 2
+  },
+  "Finance|US|M3": {
+    "raw_level": "M3",
+    "n": 5
+  },
+  "Finance|US|M4": {
+    "raw_level": "M4",
+    "n": 13
+  },
+  "Finance|US|M5": {
+    "raw_level": "M5",
+    "n": 19
+  },
+  "Finance|US|M6": {
+    "raw_level": "M6",
+    "n": 11
+  },
+  "Finance|US|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Finance|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Growth / Demand Marketing|Australia|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Growth / Demand Marketing|Australia|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Growth / Demand Marketing|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Growth / Demand Marketing|Canada|IC6": {
+    "raw_level": "L6",
+    "n": 1
+  },
+  "Growth / Demand Marketing|Canada|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Growth / Demand Marketing|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Growth / Demand Marketing|UK|IC6": {
+    "raw_level": "G6",
+    "n": 2
+  },
+  "Growth / Demand Marketing|US|Executive": {
+    "raw_level": "E12",
+    "n": 1
+  },
+  "Growth / Demand Marketing|US|IC2": {
+    "raw_level": "IC Sr. Specialist",
+    "n": 1
+  },
+  "Growth / Demand Marketing|US|IC3": {
+    "raw_level": "IC3",
+    "n": 6
+  },
+  "Growth / Demand Marketing|US|IC4": {
+    "raw_level": "IC4",
+    "n": 18
+  },
+  "Growth / Demand Marketing|US|IC5": {
+    "raw_level": "IC5",
+    "n": 9
+  },
+  "Growth / Demand Marketing|US|IC6": {
+    "raw_level": "IC6",
+    "n": 10
+  },
+  "Growth / Demand Marketing|US|IC7": {
+    "raw_level": "G8",
+    "n": 2
+  },
+  "Growth / Demand Marketing|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Growth / Demand Marketing|US|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Growth / Demand Marketing|US|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Growth / Demand Marketing|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Growth / Demand Marketing|US|M7": {
+    "raw_level": "M7",
+    "n": 4
+  },
+  "Growth / Demand Marketing|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "HR / People|Australia|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "HR / People|Canada|IC1": {
+    "raw_level": "L1",
+    "n": 1
+  },
+  "HR / People|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "HR / People|Canada|IC4": {
+    "raw_level": "L4",
+    "n": 4
+  },
+  "HR / People|Canada|IC5": {
+    "raw_level": "L5",
+    "n": 1
+  },
+  "HR / People|France|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "HR / People|Ireland|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "HR / People|Israel|IC4": {
+    "raw_level": "G4",
+    "n": 2
+  },
+  "HR / People|Israel|IC5": {
+    "raw_level": "G5",
+    "n": 1
+  },
+  "HR / People|Mexico|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "HR / People|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "HR / People|Poland|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "HR / People|UK|IC2": {
+    "raw_level": "L2",
+    "n": 1
+  },
+  "HR / People|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 3
+  },
+  "HR / People|UK|IC6": {
+    "raw_level": "P6",
+    "n": 1
+  },
+  "HR / People|UK|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "HR / People|UK|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "HR / People|US|Executive": {
+    "raw_level": "E1",
+    "n": 6
+  },
+  "HR / People|US|IC1": {
+    "raw_level": "IC1",
+    "n": 3
+  },
+  "HR / People|US|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "HR / People|US|IC3": {
+    "raw_level": "P3",
+    "n": 11
+  },
+  "HR / People|US|IC4": {
+    "raw_level": "IC4",
+    "n": 20
+  },
+  "HR / People|US|IC5": {
+    "raw_level": "IC5",
+    "n": 28
+  },
+  "HR / People|US|IC6": {
+    "raw_level": "L6",
+    "n": 10
+  },
+  "HR / People|US|M4": {
+    "raw_level": "M4",
+    "n": 5
+  },
+  "HR / People|US|M5": {
+    "raw_level": "M5",
+    "n": 11
+  },
+  "HR / People|US|M6": {
+    "raw_level": "M6",
+    "n": 8
+  },
+  "HR / People|US|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "HR / People|US|M8": {
+    "raw_level": "M8",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|Canada|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 4
+  },
+  "Infrastructure / DevOps / SRE|Canada|IC6": {
+    "raw_level": "IC6",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|India|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Infrastructure / DevOps / SRE|India|IC3": {
+    "raw_level": "L3",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|Ireland|IC1": {
+    "raw_level": "P1",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|Ireland|IC3": {
+    "raw_level": "P3",
+    "n": 5
+  },
+  "Infrastructure / DevOps / SRE|Ireland|IC4": {
+    "raw_level": "P4",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|Ireland|IC7": {
+    "raw_level": "P7",
+    "n": 1
+  },
+  "Infrastructure / DevOps / SRE|Norway|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Infrastructure / DevOps / SRE|Poland|IC3": {
+    "raw_level": "IC3",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|Poland|IC6": {
+    "raw_level": "P6",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|Poland|IC7": {
+    "raw_level": "P7",
+    "n": 6
+  },
+  "Infrastructure / DevOps / SRE|South Korea|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Infrastructure / DevOps / SRE|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 3
+  },
+  "Infrastructure / DevOps / SRE|UK|IC3": {
+    "raw_level": "L3",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Infrastructure / DevOps / SRE|UK|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Infrastructure / DevOps / SRE|US|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Infrastructure / DevOps / SRE|US|IC1": {
+    "raw_level": "P1",
+    "n": 3
+  },
+  "Infrastructure / DevOps / SRE|US|IC2": {
+    "raw_level": "P2",
+    "n": 11
+  },
+  "Infrastructure / DevOps / SRE|US|IC3": {
+    "raw_level": "P3",
+    "n": 29
+  },
+  "Infrastructure / DevOps / SRE|US|IC4": {
+    "raw_level": "P4",
+    "n": 37
+  },
+  "Infrastructure / DevOps / SRE|US|IC5": {
+    "raw_level": "P5",
+    "n": 14
+  },
+  "Infrastructure / DevOps / SRE|US|IC6": {
+    "raw_level": "P6",
+    "n": 4
+  },
+  "Infrastructure / DevOps / SRE|US|IC7": {
+    "raw_level": "P7",
+    "n": 11
+  },
+  "Infrastructure / DevOps / SRE|US|M3": {
+    "raw_level": "M3",
+    "n": 3
+  },
+  "Infrastructure / DevOps / SRE|US|M4": {
+    "raw_level": "M4",
+    "n": 10
+  },
+  "Infrastructure / DevOps / SRE|US|M5": {
+    "raw_level": "M5",
+    "n": 6
+  },
+  "Infrastructure / DevOps / SRE|US|M6": {
+    "raw_level": "M6",
+    "n": 5
+  },
+  "Infrastructure / DevOps / SRE|US|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Infrastructure / DevOps / SRE|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Legal / Compliance|Canada|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Legal / Compliance|Canada|IC1": {
+    "raw_level": "IC1",
+    "n": 1
+  },
+  "Legal / Compliance|Canada|IC3": {
+    "raw_level": "L3",
+    "n": 1
+  },
+  "Legal / Compliance|Canada|IC4": {
+    "raw_level": "L4",
+    "n": 2
+  },
+  "Legal / Compliance|India|IC2": {
+    "raw_level": "P2",
+    "n": 1
+  },
+  "Legal / Compliance|India|IC7": {
+    "raw_level": "P8",
+    "n": 1
+  },
+  "Legal / Compliance|Ireland|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Legal / Compliance|Mexico|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Legal / Compliance|UK|IC1": {
+    "raw_level": "IC1",
+    "n": 1
+  },
+  "Legal / Compliance|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Legal / Compliance|UK|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Legal / Compliance|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Legal / Compliance|UK|IC6": {
+    "raw_level": "L6",
+    "n": 1
+  },
+  "Legal / Compliance|UK|IC7": {
+    "raw_level": "IC7",
+    "n": 1
+  },
+  "Legal / Compliance|UK|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Legal / Compliance|US|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Legal / Compliance|US|Executive": {
+    "raw_level": "E1",
+    "n": 5
+  },
+  "Legal / Compliance|US|IC2": {
+    "raw_level": "P2",
+    "n": 6
+  },
+  "Legal / Compliance|US|IC3": {
+    "raw_level": "L3",
+    "n": 23
+  },
+  "Legal / Compliance|US|IC4": {
+    "raw_level": "L4",
+    "n": 45
+  },
+  "Legal / Compliance|US|IC5": {
+    "raw_level": "IC5",
+    "n": 39
+  },
+  "Legal / Compliance|US|IC6": {
+    "raw_level": "L6",
+    "n": 13
+  },
+  "Legal / Compliance|US|IC7": {
+    "raw_level": "P7",
+    "n": 11
+  },
+  "Legal / Compliance|US|M3": {
+    "raw_level": "M3",
+    "n": 2
+  },
+  "Legal / Compliance|US|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Legal / Compliance|US|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Legal / Compliance|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Legal / Compliance|US|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Legal / Compliance|US|M8": {
+    "raw_level": "M8",
+    "n": 2
+  },
+  "Machine Learning Engineering|Canada|IC2": {
+    "raw_level": "P2",
+    "n": 1
+  },
+  "Machine Learning Engineering|Canada|IC3": {
+    "raw_level": "P3",
+    "n": 2
+  },
+  "Machine Learning Engineering|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Machine Learning Engineering|Mexico|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Machine Learning Engineering|Poland|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Machine Learning Engineering|Poland|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Machine Learning Engineering|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Machine Learning Engineering|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 4
+  },
+  "Machine Learning Engineering|UK|IC4": {
+    "raw_level": "L4",
+    "n": 8
+  },
+  "Machine Learning Engineering|UK|IC5": {
+    "raw_level": "L5",
+    "n": 7
+  },
+  "Machine Learning Engineering|US|IC1": {
+    "raw_level": "L1",
+    "n": 26
+  },
+  "Machine Learning Engineering|US|IC2": {
+    "raw_level": "P2",
+    "n": 5
+  },
+  "Machine Learning Engineering|US|IC3": {
+    "raw_level": "L3",
+    "n": 14
+  },
+  "Machine Learning Engineering|US|IC4": {
+    "raw_level": "L4",
+    "n": 62
+  },
+  "Machine Learning Engineering|US|IC5": {
+    "raw_level": "L5",
+    "n": 34
+  },
+  "Machine Learning Engineering|US|IC6": {
+    "raw_level": "L6",
+    "n": 11
+  },
+  "Machine Learning Engineering|US|IC7": {
+    "raw_level": "L7",
+    "n": 2
+  },
+  "Machine Learning Engineering|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Machine Learning Engineering|US|M4": {
+    "raw_level": "M4",
+    "n": 4
+  },
+  "Machine Learning Engineering|US|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Marketing \u2014 General|Australia|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Marketing \u2014 General|Canada|IC3": {
+    "raw_level": "L3",
+    "n": 3
+  },
+  "Marketing \u2014 General|Canada|IC4": {
+    "raw_level": "L4",
+    "n": 2
+  },
+  "Marketing \u2014 General|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Marketing \u2014 General|Germany|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Marketing \u2014 General|Germany|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Marketing \u2014 General|Hungary|IC3": {
+    "raw_level": "P3",
+    "n": 1
+  },
+  "Marketing \u2014 General|Portugal|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Marketing \u2014 General|Sweden|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Marketing \u2014 General|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Marketing \u2014 General|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Marketing \u2014 General|UK|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Marketing \u2014 General|UK|IC7": {
+    "raw_level": "IC7",
+    "n": 1
+  },
+  "Marketing \u2014 General|UK|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Marketing \u2014 General|US|Executive": {
+    "raw_level": "E1",
+    "n": 6
+  },
+  "Marketing \u2014 General|US|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Marketing \u2014 General|US|IC2": {
+    "raw_level": "P2",
+    "n": 6
+  },
+  "Marketing \u2014 General|US|IC3": {
+    "raw_level": "IC3",
+    "n": 22
+  },
+  "Marketing \u2014 General|US|IC4": {
+    "raw_level": "P4",
+    "n": 29
+  },
+  "Marketing \u2014 General|US|IC5": {
+    "raw_level": "L5",
+    "n": 30
+  },
+  "Marketing \u2014 General|US|IC6": {
+    "raw_level": "IC6",
+    "n": 8
+  },
+  "Marketing \u2014 General|US|IC7": {
+    "raw_level": "IC7",
+    "n": 6
+  },
+  "Marketing \u2014 General|US|M3": {
+    "raw_level": "M3",
+    "n": 2
+  },
+  "Marketing \u2014 General|US|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "Marketing \u2014 General|US|M5": {
+    "raw_level": "M5",
+    "n": 7
+  },
+  "Marketing \u2014 General|US|M6": {
+    "raw_level": "M6",
+    "n": 4
+  },
+  "Marketing \u2014 General|US|M7": {
+    "raw_level": "M7",
+    "n": 4
+  },
+  "Marketing \u2014 General|US|M8": {
+    "raw_level": "M8",
+    "n": 2
+  },
+  "Materials / Warehouse|Canada|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Materials / Warehouse|UK|IC7": {
+    "raw_level": "G7",
+    "n": 1
+  },
+  "Materials / Warehouse|US|IC3": {
+    "raw_level": "P3",
+    "n": 3
+  },
+  "Materials / Warehouse|US|IC5": {
+    "raw_level": "G5",
+    "n": 3
+  },
+  "Materials / Warehouse|US|IC6": {
+    "raw_level": "G6",
+    "n": 1
+  },
+  "Materials / Warehouse|US|M1": {
+    "raw_level": "M1",
+    "n": 1
+  },
+  "Materials / Warehouse|US|M3": {
+    "raw_level": "M3",
+    "n": 4
+  },
+  "Operations Specialist|Canada|IC1": {
+    "raw_level": "L1",
+    "n": 1
+  },
+  "Operations Specialist|Canada|IC2": {
+    "raw_level": "P2",
+    "n": 2
+  },
+  "Operations Specialist|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Operations Specialist|Canada|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Operations Specialist|Ireland|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Operations Specialist|Mexico|IC2": {
+    "raw_level": "P2",
+    "n": 1
+  },
+  "Operations Specialist|Switzerland|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Operations Specialist|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Operations Specialist|US|Executive": {
+    "raw_level": "E1",
+    "n": 1
+  },
+  "Operations Specialist|US|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Operations Specialist|US|IC2": {
+    "raw_level": "P2",
+    "n": 16
+  },
+  "Operations Specialist|US|IC3": {
+    "raw_level": "P3",
+    "n": 8
+  },
+  "Operations Specialist|US|IC4": {
+    "raw_level": "P4",
+    "n": 13
+  },
+  "Operations Specialist|US|IC5": {
+    "raw_level": "P5",
+    "n": 3
+  },
+  "Operations Specialist|US|IC6": {
+    "raw_level": "L6",
+    "n": 2
+  },
+  "Operations Specialist|US|IC7": {
+    "raw_level": "P8",
+    "n": 1
+  },
+  "Operations Specialist|US|M1": {
+    "raw_level": "M1",
+    "n": 2
+  },
+  "Operations Specialist|US|M3": {
+    "raw_level": "M3",
+    "n": 2
+  },
+  "Operations Specialist|US|M4": {
+    "raw_level": "M4",
+    "n": 5
+  },
+  "Operations Specialist|US|M5": {
+    "raw_level": "M5",
+    "n": 7
+  },
+  "Operations Specialist|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Procurement|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Procurement|Canada|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Procurement|Ireland|IC2": {
+    "raw_level": "P2",
+    "n": 1
+  },
+  "Procurement|US|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Procurement|US|Executive": {
+    "raw_level": "E1",
+    "n": 2
+  },
+  "Procurement|US|IC2": {
+    "raw_level": "P2",
+    "n": 14
+  },
+  "Procurement|US|IC3": {
+    "raw_level": "P3",
+    "n": 13
+  },
+  "Procurement|US|IC4": {
+    "raw_level": "P4",
+    "n": 14
+  },
+  "Procurement|US|IC5": {
+    "raw_level": "P5",
+    "n": 4
+  },
+  "Procurement|US|IC6": {
+    "raw_level": "P6",
+    "n": 1
+  },
+  "Procurement|US|M3": {
+    "raw_level": "M3",
+    "n": 2
+  },
+  "Procurement|US|M4": {
+    "raw_level": "M4",
+    "n": 4
+  },
+  "Procurement|US|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Procurement|US|M6": {
+    "raw_level": "M6",
+    "n": 2
+  },
+  "Procurement|US|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Product Design|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 3
+  },
+  "Product Design|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 6
+  },
+  "Product Design|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Product Design|Canada|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Product Design|Germany|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Product Design|Mexico|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Product Design|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 3
+  },
+  "Product Design|Netherlands|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Product Design|Netherlands|IC5": {
+    "raw_level": "IC5",
+    "n": 3
+  },
+  "Product Design|Poland|IC6": {
+    "raw_level": "P6",
+    "n": 1
+  },
+  "Product Design|Spain|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Product Design|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Product Design|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 3
+  },
+  "Product Design|UK|IC4": {
+    "raw_level": "L4",
+    "n": 2
+  },
+  "Product Design|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Product Design|UK|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Product Design|US|Executive": {
+    "raw_level": "Executive (other)",
+    "n": 1
+  },
+  "Product Design|US|IC1": {
+    "raw_level": "IC1",
+    "n": 1
+  },
+  "Product Design|US|IC2": {
+    "raw_level": "P2",
+    "n": 6
+  },
+  "Product Design|US|IC3": {
+    "raw_level": "G3",
+    "n": 6
+  },
+  "Product Design|US|IC4": {
+    "raw_level": "IC4",
+    "n": 27
+  },
+  "Product Design|US|IC5": {
+    "raw_level": "IC5",
+    "n": 33
+  },
+  "Product Design|US|IC6": {
+    "raw_level": "IC6",
+    "n": 11
+  },
+  "Product Design|US|IC7": {
+    "raw_level": "P9",
+    "n": 2
+  },
+  "Product Design|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Product Design|US|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Product Design|US|M5": {
+    "raw_level": "M5",
+    "n": 5
+  },
+  "Product Design|US|M6": {
+    "raw_level": "M6",
+    "n": 5
+  },
+  "Product Design|US|M7": {
+    "raw_level": "M7",
+    "n": 3
+  },
+  "Product Management|Canada|IC1": {
+    "raw_level": "L1",
+    "n": 1
+  },
+  "Product Management|Canada|IC3": {
+    "raw_level": "L3",
+    "n": 5
+  },
+  "Product Management|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 9
+  },
+  "Product Management|Canada|IC5": {
+    "raw_level": "P5",
+    "n": 4
+  },
+  "Product Management|Italy|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Product Management|Mexico|IC7": {
+    "raw_level": "P8",
+    "n": 1
+  },
+  "Product Management|Mexico|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Product Management|Mexico|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Product Management|Netherlands|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Product Management|Poland|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Product Management|Portugal|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Product Management|Portugal|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Product Management|Singapore|IC6": {
+    "raw_level": "P6",
+    "n": 1
+  },
+  "Product Management|South Korea|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Product Management|Sweden|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Product Management|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Product Management|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Product Management|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 8
+  },
+  "Product Management|UK|IC5": {
+    "raw_level": "L5",
+    "n": 9
+  },
+  "Product Management|UK|IC6": {
+    "raw_level": "IC6",
+    "n": 4
+  },
+  "Product Management|UK|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Product Management|UK|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Product Management|US|Executive": {
+    "raw_level": "E1",
+    "n": 3
+  },
+  "Product Management|US|IC1": {
+    "raw_level": "IC1",
+    "n": 3
+  },
+  "Product Management|US|IC2": {
+    "raw_level": "IC Specialist",
+    "n": 13
+  },
+  "Product Management|US|IC3": {
+    "raw_level": "P3",
+    "n": 12
+  },
+  "Product Management|US|IC4": {
+    "raw_level": "P4",
+    "n": 45
+  },
+  "Product Management|US|IC5": {
+    "raw_level": "IC5",
+    "n": 67
+  },
+  "Product Management|US|IC6": {
+    "raw_level": "IC6",
+    "n": 37
+  },
+  "Product Management|US|IC7": {
+    "raw_level": "G7",
+    "n": 19
+  },
+  "Product Management|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Product Management|US|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "Product Management|US|M5": {
+    "raw_level": "M5",
+    "n": 7
+  },
+  "Product Management|US|M6": {
+    "raw_level": "M6",
+    "n": 3
+  },
+  "Product Management|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Product Marketing|Australia|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Product Marketing|Canada|IC3": {
+    "raw_level": "L3",
+    "n": 2
+  },
+  "Product Marketing|Canada|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Product Marketing|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Product Marketing|Germany|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Product Marketing|Germany|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Product Marketing|Mexico|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Product Marketing|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Product Marketing|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Product Marketing|UK|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Product Marketing|UK|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Product Marketing|US|Executive": {
+    "raw_level": "E1",
+    "n": 6
+  },
+  "Product Marketing|US|IC2": {
+    "raw_level": "IC Sr. Specialist",
+    "n": 2
+  },
+  "Product Marketing|US|IC3": {
+    "raw_level": "P3",
+    "n": 2
+  },
+  "Product Marketing|US|IC4": {
+    "raw_level": "IC4",
+    "n": 12
+  },
+  "Product Marketing|US|IC5": {
+    "raw_level": "IC5",
+    "n": 9
+  },
+  "Product Marketing|US|IC6": {
+    "raw_level": "IC6",
+    "n": 15
+  },
+  "Product Marketing|US|IC7": {
+    "raw_level": "IC7",
+    "n": 5
+  },
+  "Product Marketing|US|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Product Marketing|US|M6": {
+    "raw_level": "M6",
+    "n": 3
+  },
+  "Product Marketing|US|M7": {
+    "raw_level": "M7",
+    "n": 2
+  },
+  "Product Marketing|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Product Operations|UK|IC1": {
+    "raw_level": "IC1",
+    "n": 1
+  },
+  "Product Operations|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Product Operations|UK|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Product Operations|US|IC3": {
+    "raw_level": "P3",
+    "n": 5
+  },
+  "Product Operations|US|IC4": {
+    "raw_level": "P4",
+    "n": 4
+  },
+  "Product Operations|US|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Product Operations|US|IC7": {
+    "raw_level": "P7",
+    "n": 1
+  },
+  "Product Operations|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Product Operations|US|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Product Operations|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "QA / Quality Engineering|Canada|M6": {
+    "raw_level": "MGR6",
+    "n": 1
+  },
+  "QA / Quality Engineering|South Korea|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "QA / Quality Engineering|US|IC1": {
+    "raw_level": "IC1",
+    "n": 8
+  },
+  "QA / Quality Engineering|US|IC2": {
+    "raw_level": "IC Specialist",
+    "n": 4
+  },
+  "QA / Quality Engineering|US|IC3": {
+    "raw_level": "P3",
+    "n": 5
+  },
+  "QA / Quality Engineering|US|IC4": {
+    "raw_level": "P4",
+    "n": 9
+  },
+  "QA / Quality Engineering|US|IC5": {
+    "raw_level": "SEIC5",
+    "n": 4
+  },
+  "QA / Quality Engineering|US|M3": {
+    "raw_level": "M3",
+    "n": 2
+  },
+  "QA / Quality Engineering|US|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Research|Germany|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Research|UK|IC1": {
+    "raw_level": "IC1",
+    "n": 3
+  },
+  "Research|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Research|US|IC1": {
+    "raw_level": "L1",
+    "n": 8
+  },
+  "Research|US|IC2": {
+    "raw_level": "P2",
+    "n": 2
+  },
+  "Research|US|IC3": {
+    "raw_level": "P3",
+    "n": 14
+  },
+  "Research|US|IC4": {
+    "raw_level": "L4",
+    "n": 9
+  },
+  "Research|US|IC5": {
+    "raw_level": "P5",
+    "n": 8
+  },
+  "Research|US|IC6": {
+    "raw_level": "IC6",
+    "n": 3
+  },
+  "Research|US|IC7": {
+    "raw_level": "P8",
+    "n": 1
+  },
+  "Research|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Research|US|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Research|US|M5": {
+    "raw_level": "M5",
+    "n": 2
+  },
+  "Sales Development|Australia|IC1": {
+    "raw_level": "IC1",
+    "n": 2
+  },
+  "Sales Development|Australia|IC2": {
+    "raw_level": "IC2",
+    "n": 18
+  },
+  "Sales Development|Australia|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Sales Development|Australia|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Sales Development|Australia|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Sales Development|Canada|IC1": {
+    "raw_level": "P1",
+    "n": 8
+  },
+  "Sales Development|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Sales Development|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 4
+  },
+  "Sales Development|Canada|IC5": {
+    "raw_level": "L5",
+    "n": 1
+  },
+  "Sales Development|Canada|M1": {
+    "raw_level": "M1",
+    "n": 1
+  },
+  "Sales Development|Canada|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Sales Development|France|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Sales Development|France|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Sales Development|Germany|IC2": {
+    "raw_level": "IC2",
+    "n": 3
+  },
+  "Sales Development|India|IC1": {
+    "raw_level": "IC1",
+    "n": 1
+  },
+  "Sales Development|India|IC2": {
+    "raw_level": "P2",
+    "n": 1
+  },
+  "Sales Development|Ireland|IC1": {
+    "raw_level": "IC1",
+    "n": 4
+  },
+  "Sales Development|Ireland|IC2": {
+    "raw_level": "IC2",
+    "n": 15
+  },
+  "Sales Development|Ireland|IC3": {
+    "raw_level": "IC3",
+    "n": 4
+  },
+  "Sales Development|Ireland|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Sales Development|Israel|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Sales Development|Israel|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Sales Development|Japan|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Sales Development|Mexico|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Sales Development|Portugal|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Sales Development|Singapore|IC7": {
+    "raw_level": "P8",
+    "n": 1
+  },
+  "Sales Development|Spain|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Sales Development|UK|IC1": {
+    "raw_level": "IC1",
+    "n": 10
+  },
+  "Sales Development|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 22
+  },
+  "Sales Development|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Sales Development|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Sales Development|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 5
+  },
+  "Sales Development|UK|IC6": {
+    "raw_level": "L6",
+    "n": 1
+  },
+  "Sales Development|UK|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Sales Development|UK|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Sales Development|UK|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Sales Development|US|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Sales Development|US|Executive": {
+    "raw_level": "Executive",
+    "n": 4
+  },
+  "Sales Development|US|IC1": {
+    "raw_level": "IC1",
+    "n": 45
+  },
+  "Sales Development|US|IC2": {
+    "raw_level": "IC2",
+    "n": 149
+  },
+  "Sales Development|US|IC3": {
+    "raw_level": "IC3",
+    "n": 25
+  },
+  "Sales Development|US|IC4": {
+    "raw_level": "IC4",
+    "n": 21
+  },
+  "Sales Development|US|IC5": {
+    "raw_level": "IC5",
+    "n": 7
+  },
+  "Sales Development|US|IC6": {
+    "raw_level": "P6",
+    "n": 10
+  },
+  "Sales Development|US|IC7": {
+    "raw_level": "L7",
+    "n": 5
+  },
+  "Sales Development|US|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Sales Development|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Sales Development|US|M4": {
+    "raw_level": "M4",
+    "n": 4
+  },
+  "Sales Development|US|M5": {
+    "raw_level": "M5",
+    "n": 11
+  },
+  "Sales Development|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Sales Development|US|M7": {
+    "raw_level": "M7",
+    "n": 2
+  },
+  "Sales Engineering|Canada|IC2": {
+    "raw_level": "P2",
+    "n": 1
+  },
+  "Sales Engineering|Canada|IC4": {
+    "raw_level": "P4",
+    "n": 1
+  },
+  "Sales Engineering|UK|IC4": {
+    "raw_level": "P4",
+    "n": 1
+  },
+  "Sales Engineering|UK|IC5": {
+    "raw_level": "L5",
+    "n": 2
+  },
+  "Sales Engineering|US|Executive": {
+    "raw_level": "E1",
+    "n": 1
+  },
+  "Sales Engineering|US|IC2": {
+    "raw_level": "P2",
+    "n": 2
+  },
+  "Sales Engineering|US|IC3": {
+    "raw_level": "P3",
+    "n": 10
+  },
+  "Sales Engineering|US|IC4": {
+    "raw_level": "P4",
+    "n": 25
+  },
+  "Sales Engineering|US|IC5": {
+    "raw_level": "P5",
+    "n": 6
+  },
+  "Sales Engineering|US|IC6": {
+    "raw_level": "IC6",
+    "n": 3
+  },
+  "Sales Engineering|US|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "Sales Engineering|US|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Sales Engineering|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Sales Leadership|Australia|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Sales Leadership|Australia|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Sales Leadership|Australia|M5": {
+    "raw_level": "M5",
+    "n": 4
+  },
+  "Sales Leadership|Australia|M6": {
+    "raw_level": "M6",
+    "n": 2
+  },
+  "Sales Leadership|Australia|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Sales Leadership|Canada|Director": {
+    "raw_level": "Director",
+    "n": 3
+  },
+  "Sales Leadership|Canada|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Sales Leadership|Canada|IC2": {
+    "raw_level": "P2",
+    "n": 2
+  },
+  "Sales Leadership|Canada|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Sales Leadership|Canada|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Sales Leadership|Canada|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "Sales Leadership|Canada|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Sales Leadership|France|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Sales Leadership|France|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Sales Leadership|Ireland|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "Sales Leadership|Ireland|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Sales Leadership|Ireland|M6": {
+    "raw_level": "M6",
+    "n": 4
+  },
+  "Sales Leadership|Ireland|M7": {
+    "raw_level": "M7",
+    "n": 4
+  },
+  "Sales Leadership|Ireland|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Sales Leadership|Japan|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Sales Leadership|Netherlands|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Sales Leadership|Netherlands|M8": {
+    "raw_level": "M8",
+    "n": 2
+  },
+  "Sales Leadership|Singapore|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Sales Leadership|Spain|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Sales Leadership|UK|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Sales Leadership|UK|Executive": {
+    "raw_level": "E7",
+    "n": 1
+  },
+  "Sales Leadership|UK|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Sales Leadership|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 4
+  },
+  "Sales Leadership|UK|IC5": {
+    "raw_level": "L5",
+    "n": 2
+  },
+  "Sales Leadership|UK|IC7": {
+    "raw_level": "L7",
+    "n": 1
+  },
+  "Sales Leadership|UK|M5": {
+    "raw_level": "M5",
+    "n": 2
+  },
+  "Sales Leadership|UK|M6": {
+    "raw_level": "M6",
+    "n": 6
+  },
+  "Sales Leadership|UK|M7": {
+    "raw_level": "M7",
+    "n": 2
+  },
+  "Sales Leadership|UK|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Sales Leadership|US|Director": {
+    "raw_level": "Director",
+    "n": 14
+  },
+  "Sales Leadership|US|Executive": {
+    "raw_level": "E1",
+    "n": 3
+  },
+  "Sales Leadership|US|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Sales Leadership|US|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Sales Leadership|US|IC3": {
+    "raw_level": "P3",
+    "n": 1
+  },
+  "Sales Leadership|US|IC4": {
+    "raw_level": "IC4",
+    "n": 22
+  },
+  "Sales Leadership|US|IC5": {
+    "raw_level": "L5",
+    "n": 26
+  },
+  "Sales Leadership|US|IC6": {
+    "raw_level": "L6",
+    "n": 19
+  },
+  "Sales Leadership|US|IC7": {
+    "raw_level": "L7",
+    "n": 8
+  },
+  "Sales Leadership|US|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Sales Leadership|US|M3": {
+    "raw_level": "M3",
+    "n": 10
+  },
+  "Sales Leadership|US|M4": {
+    "raw_level": "M4",
+    "n": 10
+  },
+  "Sales Leadership|US|M5": {
+    "raw_level": "M5",
+    "n": 41
+  },
+  "Sales Leadership|US|M6": {
+    "raw_level": "M6",
+    "n": 38
+  },
+  "Sales Leadership|US|M7": {
+    "raw_level": "M7",
+    "n": 14
+  },
+  "Sales Leadership|US|M8": {
+    "raw_level": "M8",
+    "n": 7
+  },
+  "Sales Operations|Australia|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Sales Operations|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 2
+  },
+  "Sales Operations|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Sales Operations|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Sales Operations|Ireland|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Sales Operations|Ireland|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Sales Operations|Ireland|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Sales Operations|Poland|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Sales Operations|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 2
+  },
+  "Sales Operations|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 4
+  },
+  "Sales Operations|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Sales Operations|US|Executive": {
+    "raw_level": "E7",
+    "n": 4
+  },
+  "Sales Operations|US|IC1": {
+    "raw_level": "IC1",
+    "n": 15
+  },
+  "Sales Operations|US|IC2": {
+    "raw_level": "IC2",
+    "n": 6
+  },
+  "Sales Operations|US|IC3": {
+    "raw_level": "IC3",
+    "n": 15
+  },
+  "Sales Operations|US|IC4": {
+    "raw_level": "IC4",
+    "n": 28
+  },
+  "Sales Operations|US|IC5": {
+    "raw_level": "IC5",
+    "n": 15
+  },
+  "Sales Operations|US|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Sales Operations|US|IC7": {
+    "raw_level": "P7",
+    "n": 1
+  },
+  "Sales Operations|US|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Sales Operations|US|M3": {
+    "raw_level": "M3",
+    "n": 4
+  },
+  "Sales Operations|US|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Sales Operations|US|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Sales Operations|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Sales Operations|US|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Sales Operations|US|M8": {
+    "raw_level": "M8",
+    "n": 3
+  },
+  "Security Engineering|Australia|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Security Engineering|Canada|IC2": {
+    "raw_level": "IC2",
+    "n": 2
+  },
+  "Security Engineering|Canada|IC3": {
+    "raw_level": "L3",
+    "n": 1
+  },
+  "Security Engineering|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Security Engineering|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 2
+  },
+  "Security Engineering|France|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Security Engineering|Ireland|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Security Engineering|Israel|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Security Engineering|Italy|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Security Engineering|Italy|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Security Engineering|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Security Engineering|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Security Engineering|US|IC2": {
+    "raw_level": "IC Specialist",
+    "n": 3
+  },
+  "Security Engineering|US|IC3": {
+    "raw_level": "P3",
+    "n": 14
+  },
+  "Security Engineering|US|IC4": {
+    "raw_level": "IC4",
+    "n": 28
+  },
+  "Security Engineering|US|IC5": {
+    "raw_level": "L5",
+    "n": 15
+  },
+  "Security Engineering|US|IC6": {
+    "raw_level": "L6",
+    "n": 4
+  },
+  "Security Engineering|US|IC7": {
+    "raw_level": "IC7",
+    "n": 1
+  },
+  "Security Engineering|US|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Security Engineering|US|M5": {
+    "raw_level": "M5",
+    "n": 3
+  },
+  "Security Engineering|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Software Engineering|Argentina|IC3": {
+    "raw_level": "L3",
+    "n": 1
+  },
+  "Software Engineering|Argentina|IC4": {
+    "raw_level": "L4",
+    "n": 3
+  },
+  "Software Engineering|Argentina|IC5": {
+    "raw_level": "L5",
+    "n": 6
+  },
+  "Software Engineering|Australia|IC7": {
+    "raw_level": "P7",
+    "n": 2
+  },
+  "Software Engineering|Canada|IC1": {
+    "raw_level": "IC1",
+    "n": 5
+  },
+  "Software Engineering|Canada|IC2": {
+    "raw_level": "L2",
+    "n": 37
+  },
+  "Software Engineering|Canada|IC3": {
+    "raw_level": "L3",
+    "n": 59
+  },
+  "Software Engineering|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 47
+  },
+  "Software Engineering|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 8
+  },
+  "Software Engineering|Canada|IC6": {
+    "raw_level": "SEIC6",
+    "n": 1
+  },
+  "Software Engineering|France|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Software Engineering|France|IC3": {
+    "raw_level": "IC3",
+    "n": 3
+  },
+  "Software Engineering|France|IC4": {
+    "raw_level": "IC4",
+    "n": 6
+  },
+  "Software Engineering|France|IC5": {
+    "raw_level": "IC5",
+    "n": 7
+  },
+  "Software Engineering|France|IC7": {
+    "raw_level": "IC7",
+    "n": 1
+  },
+  "Software Engineering|Germany|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Software Engineering|Germany|IC4": {
+    "raw_level": "IC4",
+    "n": 11
+  },
+  "Software Engineering|Germany|IC5": {
+    "raw_level": "G5",
+    "n": 2
+  },
+  "Software Engineering|Germany|IC6": {
+    "raw_level": "G6",
+    "n": 2
+  },
+  "Software Engineering|Hungary|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Software Engineering|Hungary|IC5": {
+    "raw_level": "L5",
+    "n": 3
+  },
+  "Software Engineering|India|IC1": {
+    "raw_level": "P1",
+    "n": 2
+  },
+  "Software Engineering|India|IC2": {
+    "raw_level": "P2",
+    "n": 5
+  },
+  "Software Engineering|India|IC4": {
+    "raw_level": "P4",
+    "n": 4
+  },
+  "Software Engineering|India|IC6": {
+    "raw_level": "P6",
+    "n": 1
+  },
+  "Software Engineering|India|IC7": {
+    "raw_level": "P7",
+    "n": 1
+  },
+  "Software Engineering|Ireland|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Software Engineering|Ireland|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Software Engineering|Israel|IC2": {
+    "raw_level": "P2",
+    "n": 2
+  },
+  "Software Engineering|Israel|IC3": {
+    "raw_level": "P3",
+    "n": 5
+  },
+  "Software Engineering|Israel|IC4": {
+    "raw_level": "P4",
+    "n": 7
+  },
+  "Software Engineering|Israel|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Software Engineering|Israel|IC6": {
+    "raw_level": "G6",
+    "n": 1
+  },
+  "Software Engineering|Italy|IC4": {
+    "raw_level": "IC4",
+    "n": 4
+  },
+  "Software Engineering|Italy|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Software Engineering|Mexico|IC4": {
+    "raw_level": "L4",
+    "n": 2
+  },
+  "Software Engineering|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 19
+  },
+  "Software Engineering|Netherlands|IC2": {
+    "raw_level": "IC Specialist",
+    "n": 1
+  },
+  "Software Engineering|Netherlands|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Software Engineering|Poland|IC1": {
+    "raw_level": "IC1",
+    "n": 1
+  },
+  "Software Engineering|Poland|IC2": {
+    "raw_level": "IC2",
+    "n": 4
+  },
+  "Software Engineering|Poland|IC3": {
+    "raw_level": "IC3",
+    "n": 7
+  },
+  "Software Engineering|Poland|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Software Engineering|Portugal|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Software Engineering|Portugal|IC4": {
+    "raw_level": "IC4",
+    "n": 6
+  },
+  "Software Engineering|Portugal|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Software Engineering|Portugal|IC6": {
+    "raw_level": "IC6",
+    "n": 2
+  },
+  "Software Engineering|Spain|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Software Engineering|Spain|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Software Engineering|Spain|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Software Engineering|Spain|IC6": {
+    "raw_level": "IC6",
+    "n": 2
+  },
+  "Software Engineering|Sweden|IC3": {
+    "raw_level": "P3",
+    "n": 1
+  },
+  "Software Engineering|Sweden|IC4": {
+    "raw_level": "IC4",
+    "n": 3
+  },
+  "Software Engineering|Switzerland|IC5": {
+    "raw_level": "P5",
+    "n": 1
+  },
+  "Software Engineering|UK|IC1": {
+    "raw_level": "IC1",
+    "n": 11
+  },
+  "Software Engineering|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 8
+  },
+  "Software Engineering|UK|IC3": {
+    "raw_level": "IC3",
+    "n": 21
+  },
+  "Software Engineering|UK|IC4": {
+    "raw_level": "L4",
+    "n": 48
+  },
+  "Software Engineering|UK|IC5": {
+    "raw_level": "L5",
+    "n": 23
+  },
+  "Software Engineering|UK|IC6": {
+    "raw_level": "IC6",
+    "n": 6
+  },
+  "Software Engineering|UK|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Software Engineering|UK|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Software Engineering|UK|M4": {
+    "raw_level": "M4",
+    "n": 2
+  },
+  "Software Engineering|UK|M5": {
+    "raw_level": "M5",
+    "n": 2
+  },
+  "Software Engineering|US|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Software Engineering|US|Executive": {
+    "raw_level": "E1",
+    "n": 6
+  },
+  "Software Engineering|US|IC1": {
+    "raw_level": "P1",
+    "n": 71
+  },
+  "Software Engineering|US|IC2": {
+    "raw_level": "P2",
+    "n": 201
+  },
+  "Software Engineering|US|IC3": {
+    "raw_level": "P3",
+    "n": 312
+  },
+  "Software Engineering|US|IC4": {
+    "raw_level": "L4",
+    "n": 515
+  },
+  "Software Engineering|US|IC5": {
+    "raw_level": "L5",
+    "n": 297
+  },
+  "Software Engineering|US|IC6": {
+    "raw_level": "L6",
+    "n": 75
+  },
+  "Software Engineering|US|IC7": {
+    "raw_level": "IC7",
+    "n": 20
+  },
+  "Software Engineering|US|M2": {
+    "raw_level": "M2",
+    "n": 4
+  },
+  "Software Engineering|US|M3": {
+    "raw_level": "M3",
+    "n": 5
+  },
+  "Software Engineering|US|M4": {
+    "raw_level": "M4",
+    "n": 13
+  },
+  "Software Engineering|US|M5": {
+    "raw_level": "M5",
+    "n": 6
+  },
+  "Software Engineering|US|M6": {
+    "raw_level": "M6",
+    "n": 5
+  },
+  "Software Engineering|Uruguay|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Australia|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Australia|IC4": {
+    "raw_level": "IC4",
+    "n": 5
+  },
+  "Solutions / Forward-Deployed Engineering|Australia|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Australia|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Australia|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Australia|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 8
+  },
+  "Solutions / Forward-Deployed Engineering|Canada|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|France|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|France|IC4": {
+    "raw_level": "IC4",
+    "n": 3
+  },
+  "Solutions / Forward-Deployed Engineering|France|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|France|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Germany|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Germany|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Ireland|IC4": {
+    "raw_level": "IC4",
+    "n": 3
+  },
+  "Solutions / Forward-Deployed Engineering|Ireland|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Japan|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Singapore|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|Sweden|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|UK|IC1": {
+    "raw_level": "IC1",
+    "n": 4
+  },
+  "Solutions / Forward-Deployed Engineering|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 4
+  },
+  "Solutions / Forward-Deployed Engineering|UK|IC3": {
+    "raw_level": "P3",
+    "n": 2
+  },
+  "Solutions / Forward-Deployed Engineering|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 23
+  },
+  "Solutions / Forward-Deployed Engineering|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 5
+  },
+  "Solutions / Forward-Deployed Engineering|UK|IC6": {
+    "raw_level": "L6",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|UK|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|UK|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|UK|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|UK|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|US|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|US|Executive": {
+    "raw_level": "E1",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|US|IC1": {
+    "raw_level": "IC1",
+    "n": 27
+  },
+  "Solutions / Forward-Deployed Engineering|US|IC2": {
+    "raw_level": "P2",
+    "n": 19
+  },
+  "Solutions / Forward-Deployed Engineering|US|IC3": {
+    "raw_level": "IC3",
+    "n": 28
+  },
+  "Solutions / Forward-Deployed Engineering|US|IC4": {
+    "raw_level": "IC4",
+    "n": 96
+  },
+  "Solutions / Forward-Deployed Engineering|US|IC5": {
+    "raw_level": "IC5",
+    "n": 45
+  },
+  "Solutions / Forward-Deployed Engineering|US|IC6": {
+    "raw_level": "IC6",
+    "n": 7
+  },
+  "Solutions / Forward-Deployed Engineering|US|IC7": {
+    "raw_level": "IC7",
+    "n": 2
+  },
+  "Solutions / Forward-Deployed Engineering|US|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|US|M3": {
+    "raw_level": "M3",
+    "n": 13
+  },
+  "Solutions / Forward-Deployed Engineering|US|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Solutions / Forward-Deployed Engineering|US|M5": {
+    "raw_level": "M5",
+    "n": 6
+  },
+  "Solutions / Forward-Deployed Engineering|US|M6": {
+    "raw_level": "M6",
+    "n": 6
+  },
+  "Solutions / Forward-Deployed Engineering|US|M7": {
+    "raw_level": "M7",
+    "n": 2
+  },
+  "Solutions / Forward-Deployed Engineering|US|M8": {
+    "raw_level": "M8",
+    "n": 2
+  },
+  "Strategic Programs|Argentina|IC3": {
+    "raw_level": "L3",
+    "n": 4
+  },
+  "Strategic Programs|Argentina|IC4": {
+    "raw_level": "L4",
+    "n": 2
+  },
+  "Strategic Programs|Mexico|IC2": {
+    "raw_level": "L2",
+    "n": 5
+  },
+  "Strategic Programs|Mexico|IC3": {
+    "raw_level": "L3",
+    "n": 3
+  },
+  "Strategic Programs|Mexico|IC4": {
+    "raw_level": "L4",
+    "n": 2
+  },
+  "Strategic Programs|Qatar|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Strategic Programs|UK|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Strategic Programs|US|IC2": {
+    "raw_level": "L2",
+    "n": 2
+  },
+  "Strategic Programs|US|IC3": {
+    "raw_level": "L3",
+    "n": 48
+  },
+  "Strategic Programs|US|IC4": {
+    "raw_level": "L4",
+    "n": 70
+  },
+  "Strategic Programs|US|IC5": {
+    "raw_level": "L5",
+    "n": 30
+  },
+  "Strategic Programs|US|IC6": {
+    "raw_level": "L6",
+    "n": 5
+  },
+  "Strategic Programs|US|IC7": {
+    "raw_level": "P8",
+    "n": 3
+  },
+  "Strategic Programs|US|M2": {
+    "raw_level": "M2",
+    "n": 2
+  },
+  "Strategic Programs|US|M3": {
+    "raw_level": "M3",
+    "n": 13
+  },
+  "Strategic Programs|US|M4": {
+    "raw_level": "M4",
+    "n": 11
+  },
+  "Strategic Programs|US|M5": {
+    "raw_level": "M5",
+    "n": 6
+  },
+  "Strategic Programs|US|M6": {
+    "raw_level": "M6",
+    "n": 2
+  },
+  "Talent Acquisition / Recruiting|Argentina|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Australia|IC3": {
+    "raw_level": "IC3",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Australia|IC7": {
+    "raw_level": "P8",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Canada|IC1": {
+    "raw_level": "L1",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Canada|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Canada|IC3": {
+    "raw_level": "L3",
+    "n": 6
+  },
+  "Talent Acquisition / Recruiting|Canada|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Canada|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|India|IC2": {
+    "raw_level": "P2",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Ireland|IC2": {
+    "raw_level": "P2",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Ireland|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Ireland|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Mexico|IC4": {
+    "raw_level": "IC4",
+    "n": 4
+  },
+  "Talent Acquisition / Recruiting|Mexico|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Mexico|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|Mexico|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|UK|IC2": {
+    "raw_level": "IC2",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|UK|IC5": {
+    "raw_level": "L5",
+    "n": 4
+  },
+  "Talent Acquisition / Recruiting|UK|M4": {
+    "raw_level": "M4",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|US|Executive": {
+    "raw_level": "E1",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|US|IC1": {
+    "raw_level": "IC1",
+    "n": 6
+  },
+  "Talent Acquisition / Recruiting|US|IC2": {
+    "raw_level": "P2",
+    "n": 13
+  },
+  "Talent Acquisition / Recruiting|US|IC3": {
+    "raw_level": "P3",
+    "n": 29
+  },
+  "Talent Acquisition / Recruiting|US|IC4": {
+    "raw_level": "P4",
+    "n": 54
+  },
+  "Talent Acquisition / Recruiting|US|IC5": {
+    "raw_level": "L5",
+    "n": 36
+  },
+  "Talent Acquisition / Recruiting|US|IC6": {
+    "raw_level": "P6",
+    "n": 9
+  },
+  "Talent Acquisition / Recruiting|US|IC7": {
+    "raw_level": "P8",
+    "n": 2
+  },
+  "Talent Acquisition / Recruiting|US|M1": {
+    "raw_level": "M1",
+    "n": 1
+  },
+  "Talent Acquisition / Recruiting|US|M3": {
+    "raw_level": "M3",
+    "n": 7
+  },
+  "Talent Acquisition / Recruiting|US|M4": {
+    "raw_level": "M4",
+    "n": 8
+  },
+  "Talent Acquisition / Recruiting|US|M5": {
+    "raw_level": "M5",
+    "n": 2
+  },
+  "Talent Acquisition / Recruiting|US|M6": {
+    "raw_level": "M6",
+    "n": 6
+  },
+  "Talent Acquisition / Recruiting|US|M7": {
+    "raw_level": "M7",
+    "n": 2
+  },
+  "Technical Program Management|Canada|IC4": {
+    "raw_level": "L4",
+    "n": 2
+  },
+  "Technical Program Management|France|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Technical Program Management|India|IC4": {
+    "raw_level": "L4",
+    "n": 1
+  },
+  "Technical Program Management|India|IC5": {
+    "raw_level": "L5",
+    "n": 1
+  },
+  "Technical Program Management|Mexico|IC2": {
+    "raw_level": "L2",
+    "n": 1
+  },
+  "Technical Program Management|Mexico|IC3": {
+    "raw_level": "L3",
+    "n": 1
+  },
+  "Technical Program Management|Mexico|IC4": {
+    "raw_level": "L4",
+    "n": 2
+  },
+  "Technical Program Management|Portugal|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Technical Program Management|Spain|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Technical Program Management|Switzerland|IC5": {
+    "raw_level": "P5",
+    "n": 1
+  },
+  "Technical Program Management|US|Director": {
+    "raw_level": "Director",
+    "n": 1
+  },
+  "Technical Program Management|US|IC2": {
+    "raw_level": "L2",
+    "n": 1
+  },
+  "Technical Program Management|US|IC3": {
+    "raw_level": "P3",
+    "n": 9
+  },
+  "Technical Program Management|US|IC4": {
+    "raw_level": "P4",
+    "n": 18
+  },
+  "Technical Program Management|US|IC5": {
+    "raw_level": "L5",
+    "n": 24
+  },
+  "Technical Program Management|US|IC6": {
+    "raw_level": "P6",
+    "n": 3
+  },
+  "Technical Program Management|US|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Technical Program Management|US|M4": {
+    "raw_level": "M4",
+    "n": 3
+  },
+  "Technical Program Management|US|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Technical Program Management|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Technical Program Management|US|M8": {
+    "raw_level": "M8",
+    "n": 1
+  },
+  "Technical Support|Australia|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Technical Support|Canada|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Technical Support|France|IC4": {
+    "raw_level": "IC4",
+    "n": 2
+  },
+  "Technical Support|India|IC3": {
+    "raw_level": "IC3",
+    "n": 2
+  },
+  "Technical Support|Ireland|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Technical Support|Ireland|M5": {
+    "raw_level": "M5",
+    "n": 1
+  },
+  "Technical Support|Sweden|IC4": {
+    "raw_level": "IC4",
+    "n": 1
+  },
+  "Technical Support|UK|IC4": {
+    "raw_level": "IC4",
+    "n": 5
+  },
+  "Technical Support|UK|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Technical Support|UK|M3": {
+    "raw_level": "M3",
+    "n": 1
+  },
+  "Technical Support|US|IC1": {
+    "raw_level": "P1",
+    "n": 1
+  },
+  "Technical Support|US|IC2": {
+    "raw_level": "P2",
+    "n": 2
+  },
+  "Technical Support|US|IC3": {
+    "raw_level": "IC3",
+    "n": 13
+  },
+  "Technical Support|US|IC4": {
+    "raw_level": "IC4",
+    "n": 18
+  },
+  "Technical Support|US|IC5": {
+    "raw_level": "IC5",
+    "n": 6
+  },
+  "Technical Support|US|IC6": {
+    "raw_level": "IC6",
+    "n": 1
+  },
+  "Technical Support|US|M1": {
+    "raw_level": "M1",
+    "n": 1
+  },
+  "Technical Support|US|M2": {
+    "raw_level": "M2",
+    "n": 1
+  },
+  "Technical Support|US|M3": {
+    "raw_level": "M3",
+    "n": 2
+  },
+  "Technical Support|US|M4": {
+    "raw_level": "M4",
+    "n": 3
+  },
+  "Technical Support|US|M5": {
+    "raw_level": "M5",
+    "n": 2
+  },
+  "Technical Support|US|M6": {
+    "raw_level": "M6",
+    "n": 1
+  },
+  "Technical Support|US|M7": {
+    "raw_level": "M7",
+    "n": 1
+  },
+  "Wiring / Electrical|Canada|IC3": {
+    "raw_level": "IC3",
+    "n": 2
+  },
+  "Wiring / Electrical|Canada|IC5": {
+    "raw_level": "IC5",
+    "n": 1
+  },
+  "Wiring / Electrical|US|IC2": {
+    "raw_level": "P2",
+    "n": 3
+  },
+  "Wiring / Electrical|US|IC3": {
+    "raw_level": "P3",
+    "n": 4
+  },
+  "Wiring / Electrical|US|IC4": {
+    "raw_level": "P4",
+    "n": 9
+  },
+  "Wiring / Electrical|US|IC5": {
+    "raw_level": "P5",
+    "n": 2
+  },
+  "Wiring / Electrical|US|M4": {
+    "raw_level": "M4",
+    "n": 1
+  }
+}

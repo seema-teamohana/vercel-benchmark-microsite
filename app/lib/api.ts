@@ -1,81 +1,63 @@
-// API client. Backend URL is configured via NEXT_PUBLIC_API_URL.
-// In development, set it to http://localhost:8000 in .env.local.
-// In production (Vercel), set it to the Render URL.
+// API client for the TeamOhana public salary benchmark v2 backend.
+// Backend URL comes from NEXT_PUBLIC_API_URL.
+//   - Local dev: http://localhost:8000
+//   - Vercel prod: https://teamohana-pay-benchmark.onrender.com
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
 
-export type Customer = string
-
-export interface CustomerOptions {
+// GET /reference — dropdown options for the microsite.
+// available_combinations is a nested map: role → country → { level: rowCount }.
+// The frontend uses it for cascading dropdowns so the user only sees combinations
+// with sufficient training-data support (>= 5 rows).
+export interface ReferenceResponse {
   roles: string[]
-  levels: string[]
-  locations: string[]
+  countries: string[]
+  available_combinations: {
+    [role: string]: {
+      [country: string]: {
+        [level: string]: number
+      }
+    }
+  }
 }
 
-export interface RecommendedDate {
-  hire_date: string
-  ttf_days: number
-  source: string
-}
-
+// POST /predict request
 export interface PredictionRequest {
-  customer_id: string
   role: string
   level: string
   location: string
   hire_date: string  // YYYY-MM-DD
 }
 
+// POST /predict response
 export interface MarketPrediction {
   p25: number | null
+  p50: number | null
   p75: number | null
+  p90: number | null
   currency: string
   support_n: number
   fallback_level: string
   confidence: 'high' | 'medium' | 'low' | string
+  raw_level_used: string | null
   abstain_reason: string | null
 }
 
-export interface CompanyBand {
-  low: number
-  mid: number | null
-  high: number
-  currency: string
-  n_rows: number
+export interface OfferRange {
+  label: string
+  n: number
+  pct: number
 }
 
-export interface Comparison {
-  band_vs_market_pct: number
-  signal: 'in_line' | 'above_market' | 'below_market'
-}
-
-export interface RecentHire {
-  role: string
-  level: string
-  location: string
-  actual_base: number
-  currency: string
-  start_date: string | null
-  time_to_fill: number | null
-}
-
-export interface PayCalibration {
-  status: 'calibrated' | 'uncalibrated' | 'no_data' | 'no_training_data'
-  deviation_pct: number | null
-  customer_median: number | null
-  training_median: number | null
-  message: string
-}
-
-export interface CalibrationNote {
-  confidence_tier: 'high' | 'medium' | 'low' | 'unknown'
-  coverage_pct: number | null
-  note: string
+export interface OfferDistribution {
+  n_total: number
+  match_level: string
+  time_window_years: number
+  ranges: OfferRange[]
 }
 
 export interface PredictionResponse {
   query: {
-    customer_id: string
     raw_role: string
     raw_level: string
     raw_location: string
@@ -84,11 +66,7 @@ export interface PredictionResponse {
     canonical: Record<string, unknown>
   }
   market: MarketPrediction
-  pay_calibration: PayCalibration
-  company_band: CompanyBand | null
-  comparison: Comparison | null
-  recent_hires: RecentHire[]
-  calibration: CalibrationNote
+  offer_distribution: OfferDistribution
 }
 
 async function get<T>(path: string): Promise<T> {
@@ -103,14 +81,17 @@ async function post<T>(path: string, body: unknown): Promise<T> {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
   })
-  if (!r.ok) throw new Error(`${r.status}: ${await r.text()}`)
+  if (!r.ok) {
+    // Rate-limit case returns 429 with a helpful body
+    if (r.status === 429) {
+      throw new Error('You have hit the rate limit (10 requests per minute). Please wait a moment and try again.')
+    }
+    throw new Error(`${r.status}: ${await r.text()}`)
+  }
   return r.json() as Promise<T>
 }
 
 export const api = {
-  customers: () => get<{ customers: Customer[] }>('/customers'),
-  customerOptions: (id: string) => get<CustomerOptions>(`/customer/${id}/options`),
-  recommendDate: (id: string, role: string) =>
-    get<RecommendedDate>(`/recommend-date?customer_id=${encodeURIComponent(id)}&role=${encodeURIComponent(role)}`),
+  reference: () => get<ReferenceResponse>('/reference'),
   predict: (req: PredictionRequest) => post<PredictionResponse>('/predict', req),
 }

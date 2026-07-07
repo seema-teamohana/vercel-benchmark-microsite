@@ -1,48 +1,71 @@
-# TeamOhana Microsite — Frontend
+# TeamOhana Public Salary Benchmark — Frontend
 
-Next.js + Tailwind + TypeScript. Calls the FastAPI backend over HTTPS.
+Next.js + Tailwind microsite for the public salary benchmark. Public-facing lead-gen page — no auth, no customer selector.
 
 ## Local development
 
 ```bash
+# Install
 npm install
 
-# Copy the env example and edit if needed (default points to localhost:8000)
+# Point at a local backend (or the Render URL)
 cp .env.example .env.local
+# Edit .env.local: NEXT_PUBLIC_API_URL=http://localhost:8000
 
-# Run dev server (port 3000)
+# Run
 npm run dev
 ```
 
-Open http://localhost:3000. The backend needs to be running locally too (see ../backend/README.md).
+Open http://localhost:3000.
 
-## Deploy to Vercel
+## Deployment to Vercel
 
-1. Push this folder's contents to a GitHub repo (or use Vercel CLI).
-2. On Vercel: New Project → import from GitHub.
-3. Set environment variable `NEXT_PUBLIC_API_URL` to your Render backend URL.
-4. Vercel auto-detects Next.js. Click Deploy.
+1. Push this folder to a GitHub repo.
+2. On Vercel: New Project → import the repo.
+3. Set environment variable in Vercel dashboard: `NEXT_PUBLIC_API_URL` = your Render backend URL (e.g. `https://teamohana-pay-benchmark.onrender.com`).
+   - **Important:** uncheck the "Sensitive" toggle so the value is baked into the client build.
+4. Deploy. Vercel auto-detects Next.js from `vercel.json`.
 
-## Project structure
+If the API URL changes, update the env var and trigger a redeploy (without cache) — the URL is baked at build time.
+
+## Structure
 
 ```
 app/
-├── page.tsx                     # main page composition
-├── layout.tsx                   # root layout (fonts, body)
-├── globals.css                  # Tailwind + Inter font
-├── components/
-│   ├── CustomerSelect.tsx       # "view as customer" dropdown
-│   ├── QueryForm.tsx            # role/level/location/date inputs
-│   ├── MarketResult.tsx         # predicted p25-p75 range
-│   ├── BandComparison.tsx       # customer band vs market
-│   ├── RecentHires.tsx          # recent hire details with market signal
-│   └── CalibrationBanner.tsx    # honest-uncertainty messaging
-└── lib/
-    └── api.ts                   # typed backend client
+├── layout.tsx              — HTML shell + Inter font
+├── page.tsx                — main page (form + result)
+├── globals.css             — Tailwind base
+├── lib/
+│   └── api.ts              — typed API client
+└── components/
+    ├── BenchmarkForm.tsx   — cascading role → country → level dropdowns
+    ├── BenchmarkResult.tsx — quantile range bar + offer distribution + CTA
+    └── ConfidenceBadge.tsx — confidence pill (high / medium / low)
 ```
 
-## Configuring the backend URL
+## How the cascading dropdowns work
 
-The frontend reads `NEXT_PUBLIC_API_URL` at build time. To change it:
-- Local: edit `.env.local`
-- Production: set in Vercel dashboard → Project Settings → Environment Variables
+The backend's `/reference` endpoint returns an `available_combinations` map:
+
+```
+{
+  "Software Engineering": {
+    "US": { "IC1": 71, "IC2": 201, "IC3": 312, ... },
+    "UK": { "IC3": 21, "IC4": 48, ... }
+  },
+  ...
+}
+```
+
+The form filters options as the user picks:
+1. Role dropdown shows all keys of `available_combinations`.
+2. Country dropdown shows only countries under the selected role.
+3. Level dropdown shows only levels under the selected role + country.
+
+This means every combination the user can submit has at least 5 rows of training-data support. No dead-ends.
+
+## Notes
+
+- Rate limit: 10 requests/minute per IP (enforced by backend). Frontend surfaces a friendly error on 429.
+- The hire-date default is today + 60 days (typical planning horizon).
+- CTA below results is `mailto:sales@teamohana.com`.

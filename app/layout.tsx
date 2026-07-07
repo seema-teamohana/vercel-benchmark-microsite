@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'TeamOhana — Salary Benchmark',
-  description: 'Market benchmark, company band, recent hires',
+  title: 'Tech Comp Benchmark by TeamOhana',
+  description: 'Free market benchmark for tech and sales roles. Data from real hires across 30+ high-growth companies.',
 }
 
 export default function RootLayout({

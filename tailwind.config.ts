@@ -16,6 +16,7 @@ const config: Config = {
         },
         accent: {
           DEFAULT: '#0891B2',  // cyan-600
+          light:   '#22D3EE',  // cyan-400
         },
       },
     },

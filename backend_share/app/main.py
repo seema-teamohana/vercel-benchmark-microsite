@@ -1,93 +1,119 @@
 """
-FastAPI HTTP layer.
+FastAPI app for the public salary benchmark microsite.
 
-Endpoints:
-- GET  /healthz       - basic health check
-- GET  /customers     - list of customers (for the "view as" dropdown)
-- GET  /reference     - canonical roles, levels, countries, metros for UI
-- POST /predict       - the main endpoint
+Three endpoints:
+  GET  /healthz       — health check (no rate limit)
+  GET  /reference     — dropdown options (rate limited)
+  POST /predict       — query → 4 quantiles + offer distribution (rate limited)
+
+Rate limit: 10 requests/minute per IP. Applies to /reference and /predict.
+The frontend calls /reference once per page load and /predict once per query,
+so 10/min easily covers normal usage and blocks abuse.
 """
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
 
 from app.orchestrator import get_orchestrator
 
-app = FastAPI(title="TeamOhana Salary Benchmark", version="0.1.0")
+# ------------------------------------------------------------------
+# App setup
+# ------------------------------------------------------------------
+app = FastAPI(title="TeamOhana Salary Benchmark", version="2.0")
 
-# CORS — allow the Vercel-hosted frontend to call this
+# Rate limiter — 10 requests/minute per IP for protected endpoints
+limiter = Limiter(key_func=get_remote_address)
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # tighten in production
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 
+# ------------------------------------------------------------------
+# Request models
+# ------------------------------------------------------------------
 class PredictRequest(BaseModel):
-    customer_id: str = Field(..., description="Lowercase customer id, e.g. 'docker'")
-    role: str = Field(..., description="The customer's raw role string")
-    level: str = Field(..., description="The customer's raw level code")
-    location: str = Field(..., description="The customer's raw location string")
-    hire_date: str = Field(..., description="YYYY-MM-DD")
+    role: str
+    level: str
+    location: str
+    hire_date: str  # YYYY-MM-DD
 
 
+# ------------------------------------------------------------------
+# Endpoints
+# ------------------------------------------------------------------
 @app.get("/healthz")
 def healthz():
+    """Health check. Render uses this to know the service is up."""
     return {"ok": True}
 
 
-@app.get("/customers")
-def customers():
-    orch = get_orchestrator()
-    return {"customers": orch.available_customers()}
-
-
 @app.get("/reference")
-def reference():
-    orch = get_orchestrator()
-    return orch.engine.reference
+@limiter.limit("10/minute")
+def reference(request: Request):
+    """Dropdown options for the public microsite.
 
-
-@app.get("/recommend-date")
-def recommend_date(customer_id: str, role: str):
+    Returns:
+      - roles: public canonical roles only
+      - countries: countries with any supported data
+      - available_combinations: nested {role -> country -> {level: n_rows}}
+        for cascading dropdowns. Only includes combinations with >= 5 rows
+        of training data at the (role, country, standard_level) grain.
+      - metros_by_country: optional metro dropdown per country
+    """
+    import json as _json
+    from pathlib import Path as _Path
     orch = get_orchestrator()
-    return orch.recommended_hire_date(customer_id, role)
+    ref = orch.engine.reference
+
+    # Load available_combinations artifact
+    artifacts_dir = _Path(__file__).parent.parent / "artifacts"
+    with open(artifacts_dir / "available_combinations.json") as f:
+        available_combinations = _json.load(f)
+
+    # Derive roles + countries from the combinations for convenience
+    roles = sorted(available_combinations.keys())
+    countries_set = set()
+    for role_dict in available_combinations.values():
+        countries_set.update(role_dict.keys())
+
+    return {
+        "roles": roles,
+        "countries": sorted(countries_set),
+        "available_combinations": available_combinations,
+        "metros_by_country": ref.get("metros_by_country", {}),
+    }
 
 
 @app.post("/predict")
-def predict(req: PredictRequest):
-    orch = get_orchestrator()
+@limiter.limit("10/minute")
+def predict(request: Request, body: PredictRequest):
+    """Predict 4 quantiles + offer distribution for a query."""
+    # Parse hire date
     try:
-        hire_date = datetime.strptime(req.hire_date, "%Y-%m-%d")
+        hire_date = datetime.strptime(body.hire_date, "%Y-%m-%d")
     except ValueError:
-        raise HTTPException(400, detail="hire_date must be YYYY-MM-DD")
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid hire_date format: {body.hire_date}. Expected YYYY-MM-DD."
+        )
 
+    orch = get_orchestrator()
     result = orch.predict(
-        customer_id=req.customer_id,
-        raw_role=req.role,
-        raw_level=req.level,
-        raw_location=req.location,
+        raw_role=body.role,
+        raw_level=body.level,
+        raw_location=body.location,
         hire_date=hire_date,
     )
     return result
-
-
-# For listing available roles/levels/locations within a specific customer's file
-@app.get("/customer/{customer_id}/options")
-def customer_options(customer_id: str):
-    """Return the role/level/location strings present in this customer's data.
-    The frontend uses these to populate dropdowns specific to the customer
-    (so a Docker user picks from Docker's actual role strings)."""
-    orch = get_orchestrator()
-    if customer_id not in orch.customer_data:
-        raise HTTPException(404, detail=f"Unknown customer: {customer_id}")
-    df = orch.customer_data[customer_id]
-    return {
-        "roles": sorted(df['job_role'].dropna().unique().tolist()),
-        "levels": sorted(df['job_level'].dropna().unique().tolist()),
-        "locations": sorted(df['location'].dropna().unique().tolist()),
-    }

@@ -164,13 +164,21 @@ HP = dict(
     random_state=42,
 )
 
-print("  Fitting q=0.20...")
-m_lo = lgb.LGBMRegressor(alpha=0.20, **HP)
-m_lo.fit(train, y, categorical_feature=CAT_COLS)
+print("  Fitting q=0.25...")
+m_p25 = lgb.LGBMRegressor(alpha=0.25, **HP)
+m_p25.fit(train, y, categorical_feature=CAT_COLS)
 
-print("  Fitting q=0.80...")
-m_hi = lgb.LGBMRegressor(alpha=0.80, **HP)
-m_hi.fit(train, y, categorical_feature=CAT_COLS)
+print("  Fitting q=0.50 (median)...")
+m_p50 = lgb.LGBMRegressor(alpha=0.50, **HP)
+m_p50.fit(train, y, categorical_feature=CAT_COLS)
+
+print("  Fitting q=0.75...")
+m_p75 = lgb.LGBMRegressor(alpha=0.75, **HP)
+m_p75.fit(train, y, categorical_feature=CAT_COLS)
+
+print("  Fitting q=0.90...")
+m_p90 = lgb.LGBMRegressor(alpha=0.90, **HP)
+m_p90.fit(train, y, categorical_feature=CAT_COLS)
 
 # Save the categorical schemas — backend needs these to encode queries the same way
 categorical_schemas = {col: list(train[col].cat.categories) for col in CAT_COLS}
@@ -181,16 +189,39 @@ categorical_schemas = {col: list(train[col].cat.categories) for col in CAT_COLS}
 
 print("Saving artifacts...")
 
-joblib.dump(m_lo, ARTIFACTS_DIR / "lgb_p25.joblib")
-joblib.dump(m_hi, ARTIFACTS_DIR / "lgb_p75.joblib")
+joblib.dump(m_p25, ARTIFACTS_DIR / "lgb_p25.joblib")
+joblib.dump(m_p50, ARTIFACTS_DIR / "lgb_p50.joblib")
+joblib.dump(m_p75, ARTIFACTS_DIR / "lgb_p75.joblib")
+joblib.dump(m_p90, ARTIFACTS_DIR / "lgb_p90.joblib")
 
 with open(ARTIFACTS_DIR / "categorical_schemas.json", "w") as f:
     json.dump(categorical_schemas, f, indent=2)
 
 # Reference data for UI dropdowns
 all_roles_with_counts = df['canonical_role'].value_counts().drop('Other', errors='ignore').to_dict()
+
+# Public microsite: only tech + 3 well-predicted sales roles.
+# Tech = Engineering, Product, Data Science / Research functions.
+# Sales = the 3 we measured at ≤14% mean abs error in Section 16.
+# Account Executive excluded (21% error). Sales Development excluded (similar variance issue).
+PUBLIC_TECH_FUNCTIONS = {'Engineering', 'Product', 'Data Science / Research'}
+PUBLIC_SALES_ROLES = {'Sales Engineering', 'Sales Operations', 'Sales Leadership'}
+
+def is_public_role(canonical_role):
+    """Whether this canonical role appears in the public microsite dropdown."""
+    if canonical_role == 'Other':
+        return False
+    if canonical_role in PUBLIC_SALES_ROLES:
+        return True
+    function = FUNCTION_FOR_LEAF.get(canonical_role)
+    return function in PUBLIC_TECH_FUNCTIONS
+
+public_roles = sorted([r for r in all_roles_with_counts.keys() if is_public_role(r)])
+print(f"  Public roles (tech + sales): {len(public_roles)} - {public_roles}")
+
 reference = {
-    'canonical_roles': sorted(all_roles_with_counts.keys()),
+    'canonical_roles': sorted(all_roles_with_counts.keys()),  # all roles (model can predict)
+    'public_roles': public_roles,                              # tech+sales subset (UI dropdown)
     'role_to_function': FUNCTION_FOR_LEAF,
     'level_canonicals': sorted([x for x in df['level_canonical'].unique() if x != 'Unknown']) + ['Unknown'],
     'countries': sorted([x for x in df['country'].unique() if x != 'Other / Unknown']),
@@ -220,48 +251,6 @@ for level_name, cols in support_levels:
     }
 with open(ARTIFACTS_DIR / "support_index.json", "w") as f:
     json.dump(support_index, f, indent=2)
-
-# Per-customer calibration profile metadata
-calibration = {
-    'dominant_customers': ['SCAL', 'VANT', 'CRUS'],
-    'note': (
-        "Predictions are best-calibrated for customers whose hire mix resembles the "
-        "highest-volume training contributors. Per-customer test-set coverage from "
-        "Section 14f: SCAL 53.8%, VANT 56.0%, CRUS 55.8%, DOC 37.8%, IONQ 44.8%, "
-        "LUCI 43.1%, STGK 34.0%, ABRI 62.9%, DECA 43.8%. Lower-coverage customers "
-        "should treat predicted ranges as directional rather than authoritative."
-    ),
-    'per_customer_test_coverage': {
-        'SCAL': 0.538, 'VANT': 0.560, 'CRUS': 0.558, 'DOC': 0.378,
-        'IONQ': 0.448, 'LUCI': 0.431, 'STGK': 0.340, 'ABRI': 0.629,
-        'DECA': 0.438, 'GH': 0.500,
-    },
-}
-with open(ARTIFACTS_DIR / "calibration.json", "w") as f:
-    json.dump(calibration, f, indent=2)
-
-# Training pay profile — median pay per (canonical_role, level_track).
-# Used by the orchestrator at query time to compare against customer pay profile
-# and abstain when the customer's pay structure diverges from training (Design B).
-print("Building training pay profile...")
-pay_profile = (
-    modellable
-    .groupby(['canonical_role', 'level_track'])['Actual salary annual_usd']
-    .agg(['median', 'count'])
-    .reset_index()
-)
-# Only keep buckets with at least 5 rows
-pay_profile = pay_profile[pay_profile['count'] >= 5]
-pay_profile_dict = {
-    f"{row['canonical_role']}|{row['level_track']}": {
-        'median_usd': float(row['median']),
-        'n_training_rows': int(row['count']),
-    }
-    for _, row in pay_profile.iterrows()
-}
-with open(ARTIFACTS_DIR / "training_pay_profile.json", "w") as f:
-    json.dump(pay_profile_dict, f, indent=2)
-print(f"  Training pay profile: {len(pay_profile_dict)} (role, track) buckets")
 
 # Save the canonical benchmark data — the backend uses this to look up
 # "matching historical hires" alongside predictions

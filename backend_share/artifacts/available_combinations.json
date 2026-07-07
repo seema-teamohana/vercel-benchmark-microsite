@@ -1,0 +1,253 @@
+{
+  "Data Engineering": {
+    "US": {
+      "IC2": 6,
+      "IC4": 17,
+      "IC5": 5,
+      "IC6": 7
+    }
+  },
+  "Data Science / Analytics": {
+    "Canada": {
+      "IC3": 5
+    },
+    "US": {
+      "IC2": 8,
+      "IC3": 29,
+      "IC4": 46,
+      "IC5": 25,
+      "IC6": 8,
+      "IC7": 9,
+      "M3": 6
+    }
+  },
+  "Engineering Management": {
+    "UK": {
+      "M4": 5,
+      "M5": 5
+    },
+    "US": {
+      "IC5": 8,
+      "IC6": 10,
+      "IC7": 6,
+      "M3": 46,
+      "M4": 42,
+      "M5": 33,
+      "M6": 24,
+      "M7": 8
+    }
+  },
+  "Infrastructure / DevOps / SRE": {
+    "Ireland": {
+      "IC3": 5
+    },
+    "Poland": {
+      "IC7": 6
+    },
+    "US": {
+      "IC2": 11,
+      "IC3": 29,
+      "IC4": 37,
+      "IC5": 14,
+      "IC7": 11,
+      "M4": 10,
+      "M5": 6,
+      "M6": 5
+    }
+  },
+  "Machine Learning Engineering": {
+    "UK": {
+      "IC4": 8,
+      "IC5": 7
+    },
+    "US": {
+      "IC1": 26,
+      "IC2": 5,
+      "IC3": 14,
+      "IC4": 62,
+      "IC5": 34,
+      "IC6": 11
+    }
+  },
+  "Product Design": {
+    "Canada": {
+      "IC4": 6
+    },
+    "US": {
+      "IC2": 6,
+      "IC3": 6,
+      "IC4": 27,
+      "IC5": 33,
+      "IC6": 11,
+      "M5": 5,
+      "M6": 5
+    }
+  },
+  "Product Management": {
+    "Canada": {
+      "IC3": 5,
+      "IC4": 9
+    },
+    "UK": {
+      "IC4": 8,
+      "IC5": 9
+    },
+    "US": {
+      "IC2": 13,
+      "IC3": 12,
+      "IC4": 45,
+      "IC5": 67,
+      "IC6": 37,
+      "IC7": 19,
+      "M5": 7
+    }
+  },
+  "Product Operations": {
+    "US": {
+      "IC3": 5
+    }
+  },
+  "QA / Quality Engineering": {
+    "US": {
+      "IC1": 8,
+      "IC3": 5,
+      "IC4": 9
+    }
+  },
+  "Research": {
+    "US": {
+      "IC1": 8,
+      "IC3": 14,
+      "IC4": 9,
+      "IC5": 8
+    }
+  },
+  "Sales Engineering": {
+    "US": {
+      "IC3": 10,
+      "IC4": 25,
+      "IC5": 6
+    }
+  },
+  "Sales Leadership": {
+    "UK": {
+      "M6": 6
+    },
+    "US": {
+      "IC4": 22,
+      "IC5": 26,
+      "IC6": 19,
+      "IC7": 8,
+      "M3": 10,
+      "M4": 10,
+      "M5": 41,
+      "M6": 38,
+      "M7": 14,
+      "M8": 7,
+      "Director": 14
+    }
+  },
+  "Sales Operations": {
+    "US": {
+      "IC1": 15,
+      "IC2": 6,
+      "IC3": 15,
+      "IC4": 28,
+      "IC5": 15
+    }
+  },
+  "Security Engineering": {
+    "US": {
+      "IC3": 14,
+      "IC4": 28,
+      "IC5": 15
+    }
+  },
+  "Software Engineering": {
+    "Argentina": {
+      "IC5": 6
+    },
+    "Canada": {
+      "IC1": 5,
+      "IC2": 37,
+      "IC3": 59,
+      "IC4": 47,
+      "IC5": 8
+    },
+    "France": {
+      "IC4": 6,
+      "IC5": 7
+    },
+    "Germany": {
+      "IC4": 11
+    },
+    "India": {
+      "IC2": 5
+    },
+    "Israel": {
+      "IC3": 5,
+      "IC4": 7
+    },
+    "Mexico": {
+      "IC5": 19
+    },
+    "Poland": {
+      "IC3": 7
+    },
+    "Portugal": {
+      "IC4": 6
+    },
+    "UK": {
+      "IC1": 11,
+      "IC2": 8,
+      "IC3": 21,
+      "IC4": 48,
+      "IC5": 23,
+      "IC6": 6
+    },
+    "US": {
+      "IC1": 71,
+      "IC2": 201,
+      "IC3": 312,
+      "IC4": 515,
+      "IC5": 297,
+      "IC6": 75,
+      "IC7": 20,
+      "M3": 5,
+      "M4": 13,
+      "M5": 6,
+      "M6": 5,
+      "Executive": 6
+    }
+  },
+  "Solutions / Forward-Deployed Engineering": {
+    "Australia": {
+      "IC4": 5
+    },
+    "Canada": {
+      "IC4": 8
+    },
+    "UK": {
+      "IC4": 23,
+      "IC5": 5
+    },
+    "US": {
+      "IC1": 27,
+      "IC2": 19,
+      "IC3": 28,
+      "IC4": 96,
+      "IC5": 45,
+      "IC6": 7,
+      "M3": 13,
+      "M5": 6,
+      "M6": 6
+    }
+  },
+  "Technical Program Management": {
+    "US": {
+      "IC3": 9,
+      "IC4": 18,
+      "IC5": 24
+    }
+  }
+}

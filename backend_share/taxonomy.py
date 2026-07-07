@@ -96,6 +96,12 @@ MAPPING_RULES = {
             "frontend engineer", "fullstack engineer", "full stack engineer",
             "mobile engineer", "ios engineer", "android engineer",
             "web engineer", "platform engineer",
+            # Developer variants (added 2026-07 for new-customer coverage)
+            # Note: bare "developer" excluded to avoid false-matching "Developer Relations"
+            "senior developer", "staff developer", "junior developer",
+            "principal developer", "sr developer", "sr. developer",
+            "software developer", "backend developer", "frontend developer",
+            "web developer", "mobile developer", "model developer",
         ],
     },
     "Machine Learning Engineering": {
@@ -564,6 +570,17 @@ def map_role_for_row(row):
                     if kw.lower() in cleaned:
                         return (leaf, "title")
 
+    # Title regex fallback — apply role_regex patterns against the cleaned title.
+    # Useful when the Job role field is empty but the Job title matches a role pattern
+    # (e.g. bare "Developer" as a title should match the '^developer$' role regex).
+    if title is not None and not pd.isna(title):
+        cleaned = clean_title(title).lower()
+        if cleaned:
+            for leaf, rules in MAPPING_RULES.items():
+                for pat in rules.get("role_regex", []):
+                    if pat.search(cleaned):
+                        return (leaf, "title_regex")
+
     return ("Other", "unmapped")
 
 
@@ -598,6 +615,80 @@ def bucket_level(lvl):
         return 'Senior IC (other)'
     if lvl in UNKNOWN_BUCKET:
         return 'Unknown'
+    # For standard levels (IC4, M5, P3, L4, etc.) — pass through as-is.
+    return lvl
+
+
+def infer_level_from_title(title):
+    """Infer canonical level from job title when unambiguous.
+
+    Returns a canonical level string ('IC1', 'IC4', 'M3', 'Executive', etc)
+    or None if the title has no clear level marker.
+
+    Two-pass logic:
+      Pass 1: management / executive markers (checked first, so 'Senior Manager'
+              becomes M4 rather than IC4).
+      Pass 2: IC seniority markers, only if not managerial.
+
+    Explicitly returns None for ambiguous titles like bare 'Software Engineer'
+    or 'Customer Support Representative' — we'd rather leave a row unmapped
+    than mislabel its level.
+    """
+    if title is None or pd.isna(title):
+        return None
+    t = str(title).lower().strip()
+
+    # ------------------------------------------------------------------
+    # PASS 1: management / executive markers
+    # ------------------------------------------------------------------
+    # Executive: chief officers, VPs
+    if re.search(r'\b(ceo|cto|cfo|cpo|coo|cmo|chief\s+\w+\s+officer)\b', t):
+        return 'Executive'
+    if re.search(r'\b(svp|senior vice president|executive vice president|evp)\b', t):
+        return 'Executive'
+    if re.search(r'\bvice president\b|\bvp\b|\bvp,', t):
+        return 'Executive'
+
+    # Director: senior director, head of, director of
+    if re.search(r'\bsenior director\b|\bsr\.?\s+director\b|\bhead of\b', t):
+        return 'Director'
+    if re.search(r'\bdirector\b', t):
+        # 'Assistant/Associate Director' is manager-level, not director
+        if re.search(r'\bassistant director\b|\bassoc(iate)?\s+director\b', t):
+            return 'M4'
+        return 'Director'
+
+    # Manager (but exclude IC-role "Manager" titles like Product Manager)
+    if re.search(r'\bsenior manager\b|\bsr\.?\s+manager\b', t):
+        return 'M4'
+    if re.search(r'\bmanager\b', t):
+        # These are IC roles despite 'Manager' in title. Let the normal role
+        # mapping determine level via other signals.
+        if re.search(
+            r'\b(product|program|project|technical program|marketing|account|'
+            r'customer success|engagement)\s+manager\b',
+            t,
+        ):
+            return None
+        return 'M3'
+
+    # ------------------------------------------------------------------
+    # PASS 2: IC seniority markers
+    # ------------------------------------------------------------------
+    if re.search(r'\bintern\b', t):
+        return 'IC1'
+    if re.search(r'^(jr|junior)\b|\bjunior\s+(engineer|developer|analyst|designer|scientist)\b', t):
+        return 'IC1'
+    if re.search(r'^associate\b|\bassociate\s+(engineer|developer|analyst|designer|scientist)\b', t):
+        return 'IC2'
+    if re.search(r'^(sr|senior|sr\.)\b|\bsenior\s+(engineer|developer|analyst|designer|scientist|associate)\b', t):
+        return 'IC4'
+    if re.search(r'^staff\b|\bstaff\s+(engineer|developer|analyst|designer|scientist)\b', t):
+        return 'IC5'
+    if re.search(r'^principal\b|\bprincipal\s+(engineer|developer|analyst|designer|scientist)\b', t):
+        return 'IC6'
+
+    return None
     return lvl
 
 
@@ -711,6 +802,61 @@ LOCATION_RULES = [
     (r'^north america$', 'US', None),
     (r'^europe$', 'Other / Unknown', None),
 
+    # ------------------------------------------------------------------
+    # New-customer location formats (2026-07 additions)
+    # These are variants used by customers in the second batch of data.
+    # Placed here (before generic country patterns) so they take priority.
+    # ------------------------------------------------------------------
+
+    # US "Remote" variants — all resolve to US
+    (r'^remote\s*-\s*us$|^remote\s*-us$|^remote-us$|^us\s*-\s*remote$|^us\s*remote$', 'US', None),
+    (r'^remote\s*\(\s*united states\s*\)$|^remote\s*\(\s*us\s*\)$', 'US', None),
+    (r'^united states \(general\)$|^united states \(premium\)$|^us\s*-\s*national', 'US', None),
+    (r'^us\s*-\s*geo\s*\d', 'US', None),  # US - Geo 1, US - Geo 2 etc
+    (r'^us\s*-\s*oak$', 'US', 'SF Bay Area'),   # Oakland is SF Bay
+    (r'^us\s*-\s*dc$', 'US', 'DC Metro'),
+    (r'^us\s*-\s*nyc$', 'US', 'NYC Metro'),
+
+    # Named US cities (bare)
+    (r'^minneapolis$', 'US', 'Minneapolis'),
+    (r'^madison$', 'US', 'Madison'),
+    (r'^redwood city$', 'US', 'SF Bay Area'),
+    (r'^sunnyvale,?\s*ca?$', 'US', 'SF Bay Area'),
+    (r'^new york city$', 'US', 'NYC Metro'),
+    (r'^remote \(united states\)$', 'US', None),
+
+    # Canada variants
+    (r'^ottawa$', 'Canada', 'Ottawa'),
+    (r'^maple$', 'Canada', 'Toronto'),  # Radiant's Maple, Ontario office
+    (r'^remote\s*\(\s*canada\s*\)$', 'Canada', None),
+    (r'^canada$', 'Canada', None),  # bare "Canada"
+
+    # UK variants
+    (r'^uk\s*-\s*national', 'UK', None),
+    (r'^remote\s*\(\s*united kingdom\s*\)$|^remote\s*\(\s*uk\s*\)$', 'UK', None),
+    (r'^united kingdom \(general\)$', 'UK', None),
+
+    # Mexico variants
+    (r'^remote\s*-\s*mexico$|^remote\s*\(\s*mexico\s*\)$', 'Mexico', None),
+    (r'^remote\s*-\s*contractor$', 'Mexico', None),  # baubap-specific — their contractors are Mexico-based
+
+    # India variants
+    (r'^remote\s*\(\s*india\s*\)$|^offshore\s*-\s*india$', 'India', None),
+    (r'^in\s*-\s*geo\s*\d', 'India', None),  # IN - Geo 1 (Bengaluru, Mumbai)
+    (r'^bengaluru$|^bangalore$', 'India', 'Bangalore'),
+    (r'^mumbai$', 'India', 'Mumbai'),
+
+    # Europe (country-level) — variants
+    (r'^hungary$|^budapest$', 'Hungary', None),
+    (r'^portugal$|^lisbon$|^porto$', 'Portugal', None),
+    (r'^warsaw$', 'Poland', 'Warsaw'),
+    (r'^south korea$|^seoul$', 'South Korea', None),
+
+    # Regional catch-alls that DON'T identify country — resolve to Unknown
+    # (These were common in the new data and caused false-positive on country patterns)
+    (r'^americas$|^apac$|^emea$|^latam$', 'Other / Unknown', None),
+    (r'^remote\s*-\s*latam$|^remote\s*-\s*apac$|^offshore\s*-\s*latam$', 'Other / Unknown', None),
+
     # UK
     (r'london', 'UK', 'London'),
     (r'manchester', 'UK', 'Manchester'),
@@ -801,11 +947,56 @@ LOCATION_RULES = [
     (r'finland|helsinki', 'Finland', None),
     (r'denmark|copenhagen', 'Denmark', None),
 
-    # Remote (region unspecified)
-    (r'^remote$', 'Remote (unspecified)', None),
+    # Remote (region unspecified) — kept for legacy handling but NEW code should
+    # use map_location_with_customer_context() which resolves "Remote" to the
+    # customer's HQ country when possible.
+    (r'^remote$', 'Other / Unknown', None),
 ]
 
 COMPILED_LOCATION_RULES = [(re.compile(p, re.IGNORECASE), c, m) for p, c, m in LOCATION_RULES]
+
+
+# ============================================================
+# Customer HQ lookup — used for resolving bare "Remote" strings
+# and for the "HQ" location value some customers use.
+#
+# Best-guess mapping based on public knowledge of these companies.
+# Defaults to US for unlisted customers (matches ~85% of TeamOhana's
+# actual customer base).
+# ============================================================
+CUSTOMER_HQ_COUNTRY = {
+    # Non-US HQs (confirmed)
+    'jane_app':          'Canada',
+    'solink':            'Canada',
+    'hyperexponential':  'UK',
+    'baubap':            'Mexico',
+
+    # US HQs (confirmed)
+    'attain':            'US',
+    'cedar_cares':       'US',
+    'evenup':            'US',
+    'everlaw':           'US',
+    'fetch':             'US',
+    'gravie':            'US',
+    'ironclad':          'US',
+    'juniper_square':    'US',
+    'komodo':            'US',
+    'lastpass':          'US',
+    'malbek':            'US',
+    'ontra':             'US',
+    'rad_ai':            'US',
+    'radiant':           'US',
+    'security_score_card': 'US',
+    'sonatus':           'US',
+    'sprout_social':     'US',
+    'tilt':              'US',
+    'zip':               'US',
+
+    # Original master-sheet customers (from prior anonymised training data)
+    'DOC': 'US', 'docker': 'US',
+    # If we later confirm HQ for VANT, SCAL, CRUS, etc. add here.
+}
+DEFAULT_HQ_COUNTRY = 'US'  # fallback for unlisted customers
 
 
 def is_remote_string(loc):
@@ -826,6 +1017,42 @@ def map_location(loc):
         if pat.search(s):
             return (country, metro, is_remote)
     return ('Other / Unknown', None, is_remote)
+
+
+def map_location_with_customer_context(loc, customer_id=None):
+    """Same as map_location, but resolves ambiguous strings ('Remote', 'HQ')
+    to the customer's HQ country when we know it.
+
+    This is what the training pipeline uses. The public /predict endpoint
+    doesn't have a customer_id, so it uses map_location() directly — which
+    is fine because public users pick a country explicitly from the dropdown.
+
+    Args:
+        loc: raw location string.
+        customer_id: string identifier for the customer; used to look up HQ.
+                     If None or unknown, ambiguous strings become Other / Unknown.
+    """
+    if loc is None or pd.isna(loc):
+        return ('Other / Unknown', None, False)
+
+    s = str(loc).strip()
+    if ';' in s:
+        s = s.split(';')[0].strip()
+
+    # Check for the two ambiguous patterns that require customer context
+    is_bare_remote = re.match(r'^remote$', s, re.IGNORECASE) is not None
+    is_hq          = re.match(r'^hq$',     s, re.IGNORECASE) is not None
+
+    if is_bare_remote or is_hq:
+        if customer_id:
+            hq_country = CUSTOMER_HQ_COUNTRY.get(customer_id.lower(), DEFAULT_HQ_COUNTRY)
+        else:
+            hq_country = DEFAULT_HQ_COUNTRY
+        # 'Remote' means WFH from HQ country. 'HQ' means at HQ (in-office).
+        return (hq_country, None, is_bare_remote)
+
+    # Otherwise fall through to standard mapping
+    return map_location(s)
 
 
 # ============================================================
